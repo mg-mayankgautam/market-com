@@ -1,0 +1,38 @@
+.Hero{
+    padding: 64px 120px;
+    min-height: calc(100vh - 128px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    background-image: url(../../assets/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: left;
+}
+
+.subHeadHero{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(136, 136, 136);
+    margin-top: 32px;
+}
+
+.mainHeadHero{
+    font-size: 48px;
+    font-weight: 600;
+    max-width: 600px;
+}
+
+.heroBtn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 16px 32px;
+    max-width: 200px;
+    font-size: 16px;
+    font-family: inherit;
+    margin-top: 32px;
+}

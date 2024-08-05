@@ -1,0 +1,66 @@
+.Contact{
+    padding: 32px 96px;
+    min-height: calc(100vh - 64px);
+    display: flex;
+    gap: 32px;
+    /* background-color: rgb(0, 0, 0); */
+    justify-content: flex-end;
+    position: relative;
+}
+
+.ContactMainBox{
+    width: 80%;
+    box-shadow: 0px 10px 20px 0px #0000001A;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.SendMsgBox{
+    width: calc(60% - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: center; */
+    gap: 16px;
+    padding: 64px 40px;
+    /* background-color: aquamarine; */
+}
+
+.sendMsgHead{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+.contactBtn{
+    background-color: var(--primary);
+    color: white;
+    border: 1px solid white;
+}
+
+
+.ContactSubBox{
+    position: absolute;
+    top: 64px;
+    bottom: 64px;
+    left: 13%;
+    right: 53%;
+    background-color: var(--primary);
+    background-color: white;
+    /* color: white; */
+    box-shadow: 0px 10px 20px 0px #0000001A;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: left;
+}
+
+.contactInfoIcons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
