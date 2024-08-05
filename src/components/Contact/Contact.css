@@ -3,7 +3,7 @@
     min-height: calc(100vh - 64px);
     display: flex;
     gap: 32px;
-    /* background-color: rgb(0, 0, 0); */
+    background-color:antiquewhite;
     justify-content: flex-end;
     position: relative;
 }
@@ -29,14 +29,14 @@
 }
 
 .sendMsgHead{
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 32px;
     text-align: left;
 }
 
 .contactBtn{
-    background-color: var(--primary);
+    background-color: transparent;
     color: white;
     border: 1px solid white;
 }
@@ -44,23 +44,32 @@
 
 .ContactSubBox{
     position: absolute;
-    top: 64px;
-    bottom: 64px;
+    top: 96px;
+    bottom: 96px;
     left: 13%;
     right: 53%;
     background-color: var(--primary);
     background-color: white;
     /* color: white; */
-    box-shadow: 0px 10px 20px 0px #0000001A;
+    box-shadow: 0px 8px 30px 0px #0000001A;
     padding: 64px;
+    text-align: left;
+}
+
+.sendMsgContent{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 32px;
-    text-align: left;
+    margin-top: 40px;
 }
 
 .contactInfoIcons{
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.icon{
+    font-size: 20px !important;
 }

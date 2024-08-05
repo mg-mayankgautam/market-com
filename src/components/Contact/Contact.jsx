@@ -16,20 +16,24 @@ const Contact = () => {
                 Get In Touch
             </div>
 
-            {/* <div className='sendMsgContent'> */}
+            <div className='sendMsgContent'>
                 <div className='contactInfoIcons'>
-                    <IoLocationOutline/> 32, Avenue Lorem, Ipsum, 120004
+                    <IoLocationOutline className='icon'/> 
+                    32, Avenue Lorem, <br />Ipsum, 120004
                 </div>
                 <div className='contactInfoIcons'>
-                    <MdOutlineAttachEmail/> abc@gmail.com
+                    <MdOutlineAttachEmail className='icon'/> 
+                    abc@gmail.com
                 </div>
                 <div className='contactInfoIcons'>
-                    <IoCallOutline/> 9898989898
+                    <IoCallOutline className='icon'/> 
+                    9898989898
                 </div>
                 <div className='contactInfoIcons'>
-                    <FaInstagram/> Digital Marketing
+                    <FaInstagram className='icon'/> 
+                    Digital Marketing
                 </div>
-            {/* </div> */}
+            </div>
             
         </div>
         

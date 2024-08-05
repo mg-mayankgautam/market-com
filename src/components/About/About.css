@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     gap: 16px;
+    background-color: antiquewhite;
 }
 
 .AboutMain{
@@ -25,13 +26,13 @@
     height: 100%;
     width: 100%;
     max-width: 100%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    /* border-top-left-radius: 20px; */
+    /* border-bottom-left-radius: 20px; */
 }
 
 .aboutBox1, .aboutBox2{
     width: 30%;
-    padding: 32px;
+    padding: 48px;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -40,16 +41,16 @@
 
 }
 .aboutBox1{
-    background-color: var(--primary);
-    border-radius: 20px;
+    background-color: black;
+    /* border-radius: 20px; */
     color: white;
 }
 
 .aboutBox2{
     margin: 24px 0;
     background-color: white;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    /* border-top-right-radius: 20px; */
+    /* border-bottom-right-radius: 20px; */
 }
 
 .aboutHead{
@@ -63,8 +64,8 @@
 
 .aboutBtn{
     border: 1px solid white;
-    color: var(--primary);
-    background-color: white;
+    color: white;
+    background-color: transparent;
     font-weight: 700;
     text-align: left;
 }
