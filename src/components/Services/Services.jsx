@@ -6,8 +6,19 @@ import seo from '../../assets/seo.jpg'
 import cm from '../../assets/corporatemarketing.jpg'
 import pdesign from '../../assets/packagedesign.jpg'
 import appdev from '../../assets/appdev.avif'
+import { useState } from 'react'
 
 const Services = () => {
+
+    const [showMoreServices, setshowMoreServices] = useState(false)
+
+   const showMoreservices = ()=>{
+
+    setshowMoreServices(prev=>!prev)
+
+
+   }
+
   return (
     <div className='Services'>
         
@@ -98,8 +109,18 @@ const Services = () => {
                 </button>
             </div>
           </div> 
-
+          {showMoreServices?<></>:
+            <button
+            onClick={()=>{showMoreservices()}}
+            >
+                View More services</button>
+}
         </div>
+
+        {showMoreServices?<div>more services</div>:<></>}
+
+        
+
         
 
         {/* <div>Search Engine Optimization</div>
