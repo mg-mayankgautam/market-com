@@ -66,6 +66,112 @@
     border: 1px solid white;
     color: white;
     background-color: transparent;
-    font-weight: 700;
+    /* font-weight: 700; */
     text-align: left;
 }
+
+
+.AboutNumbers{
+    display: flex;
+    gap: 64px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 0;
+    color: black;
+}
+
+.aboutCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutCardsHead{
+    /* align-self: end; */
+    font-size: 60px;
+    z-index: 31;
+  }
+  .aboutCardsText{
+    margin:0 20px 20px;
+  }
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .aboutCardsHead.one {
+    animation: counter 2s linear forwards;
+    counter-reset: num var(--num);
+  }
+  .aboutCardsHead.one::after {
+    content: counter(num) '+';
+  }
+  
+  @keyframes counter {
+    0%{
+        --num: 0;
+    }
+    50%{
+        --num: 13;
+    }
+    100%{
+        --num: 2;
+    }
+  }
+  .aboutCardsHead.two {
+    animation: counter2 2s linear forwards;
+    counter-reset: num var(--num);
+  }
+  .aboutCardsHead.two::after {
+    content: counter(num) '+';
+  }
+  
+  @keyframes counter2 {
+    0% {
+      --num: 0;
+    }
+    80% {
+      --num: 22;
+    }
+    100%{
+      --num: 20;
+    }
+  }
+  .aboutCardsHead.three {
+    animation: counter3 2s linear forwards;
+    counter-reset: num var(--num);
+  }
+  .aboutCardsHead.three::after {
+    content: counter(num) '+';
+  }
+  
+  @keyframes counter3 {
+    0% {
+      --num: 0;
+    }
+    100%{
+      --num: 25;
+    }
+  }
+
+  .aboutCardsHead.four {
+    animation: counter4 2s linear forwards;
+    counter-reset: num var(--num);
+  }
+  .aboutCardsHead.four::after {
+    content: counter(num) '+';
+  }
+  
+  @keyframes counter4 {
+    0% {
+      --num: 0;
+    }
+    60% {
+      --num: 15;
+    }
+    100%{
+      --num: 5;
+    }
+  }

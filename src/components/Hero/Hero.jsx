@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='Hero'>
 
         <div className='subHeadHero'>
-            Welcome to MnM !
+            Welcome to TechTonic !
         </div>
 
         <div className='mainHeadHero'>

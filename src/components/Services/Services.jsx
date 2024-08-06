@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <div className='Services'>
         
-        <div className='servicesHead'>Our Services</div>
+        <div className='servicesHead'>OUR SERVICES</div>
 
         <div className='ServicesContainer'>
 
@@ -19,42 +19,84 @@ const Services = () => {
             <div className='serviceImgDiv'>
                 <img src={webdev} />
             </div>
-            <div></div>
+            <div className='serviceContent'>
+                <div className='serviceName'>
+                    Website Development
+                </div>
+                <button className='serviceBtn'>
+                    Read More
+                </button>
+            </div>
           </div> 
 
           <div className='serviceBox'>
             <div className='serviceImgDiv'>
                 <img src={appdev} />
             </div>
-            <div></div>
+            <div className='serviceContent'>
+                <div className='serviceName'>
+                    App Development
+                </div>
+                <button className='serviceBtn'>
+                    Read More
+                </button>
+            </div>
           </div> 
 
           <div className='serviceBox'>
             <div className='serviceImgDiv'>
                 <img src={pdesign} />
             </div>
-            <div></div>
+            <div className='serviceContent'>
+                <div className='serviceName'>
+                    Product Design
+                </div>
+                <button className='serviceBtn'>
+                    Read More
+                </button>
+            </div>
           </div> 
 
           <div className='serviceBox'>
             <div className='serviceImgDiv'>
                 <img src={sm} />
             </div>
-            <div></div>
+            <div className='serviceContent'>
+                <div className='serviceName'>
+                    Social Media Marketing
+                </div>
+                <button className='serviceBtn'>
+                    Read More
+                </button>
+            </div>
           </div> 
 
           <div className='serviceBox'>
             <div className='serviceImgDiv'>
                 <img src={cm} />
             </div>
-            <div></div>
+            <div className='serviceContent'>
+                <div className='serviceName'>
+                    Corporate Strategy
+                </div>
+                <button className='serviceBtn'>
+                    Read More
+                </button>
+            </div>
           </div> 
 
           <div className='serviceBox'>
             <div className='serviceImgDiv'>
                 <img src={seo} />
             </div>
-            <div></div>
+            <div className='serviceContent'>
+                <div className='serviceName'>
+                    Search Engine Optimization
+                </div>
+                <button className='serviceBtn'>
+                    Read More
+                </button>
+            </div>
           </div> 
 
         </div>

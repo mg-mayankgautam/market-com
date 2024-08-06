@@ -15,11 +15,19 @@ button{
     margin-top: 32px;
 }
 
+button:hover{
+  background-color: #faebd7;
+  color: black;
+  font-weight: 500;
+  border-color: black;
+}
+
 input{
-  border-radius: 14px;
+  /* border-radius: 14px; */
   padding: 12px 16px;
   background-color: #6484961A;
-  border: 0.25px solid #2a2f336e;
+  border: 0;
+  border-bottom: 0.25px solid #2a2f336e;
   font-size: 14px;
   color: inherit;
   max-width: 320px;

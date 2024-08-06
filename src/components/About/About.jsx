@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './About.css'
 import photo from '../../assets/bg2.jpg'
 
-const About = () => {
+const About = ({scrollvar}) => {
+
+    useEffect(()=>{
+        if(scrollvar>17){
+          const cards = document.querySelectorAll('.aboutCardsHead')
+          cards[0].classList.add('one');
+          cards[1].classList.add('two');
+          cards[2].classList.add('three');
+          cards[3].classList.add('four');
+        }
+      }, [scrollvar])
+
+
   return (
     <div className='About'>
         
@@ -16,8 +28,7 @@ const About = () => {
                 <div className='aboutHead'>About Us</div>
 
                 <div className='aboutText'>
-                    At Your Company Name, we're dedicated to helping businesses succeed with innovative digital marketing strategies. Our experienced team delivers tailored solutions to enhance your online presence and achieve your goals. We believe in the power of digital transformation and leverage the latest technologies and methodologies to stay ahead of the curve. 
-                    {/* Our commitment to excellence and customer satisfaction drives everything we do, ensuring that we deliver the highest quality service and measurable results. Whether you're looking to boost your brand's visibility, engage your audience, or increase your ROI, we're here to help you every step of the way. */}
+                    At TechTonic, we're dedicated to helping businesses succeed with innovative digital marketing strategies. Our experienced team delivers tailored solutions to enhance your online presence and achieve your goals. We leverage the latest technologies to stay ahead of the curve and ensure exceptional service and measurable results.
                 </div>
 
                 <button className='aboutBtn'>
@@ -31,16 +42,31 @@ const About = () => {
                 </div>
                 <div>
                     Expertise: Years of industry experience and proven success.
-                    Innovation: Cutting-edge strategies and tools.
-                    Personalized Service: Tailored solutions for your unique needs.
-                    Results-Driven: Focus on delivering measurable results.
-                    Customer-Centric: Your success is our top priority.
+                    <br />Innovation: Cutting-edge strategies and tools.
+                    <br />Personalized Service: Tailored solutions for your unique needs.
+                    <br />Results-Driven: Focus on delivering measurable results.
+                    <br />Customer-Centric: Your success is our top priority.
                 </div>
             </div>
         </div>
 
         <div className='AboutNumbers'>
-            numbers
+            <div className='aboutCards'>
+                <div className='aboutCardsHead'></div>
+                <div className='aboutCardsText'>Years of Experience</div>
+            </div>
+            <div className='aboutCards'>
+                <div className='aboutCardsHead'></div>
+                <div className='aboutCardsText'>Happy Clients</div>
+            </div>
+            <div className='aboutCards'>
+                <div className='aboutCardsHead'></div>
+                <div className='aboutCardsText'>Projects Delivered</div>
+            </div>
+            <div className='aboutCards'>
+                <div className='aboutCardsHead'></div>
+                <div className='aboutCardsText'>Star Ratings</div>
+            </div>
         </div>
     </div>
   )
