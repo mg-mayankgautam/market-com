@@ -77,7 +77,7 @@ const Footer = () => {
                 </div>
                 <div className='footerList'>
                      <div>
-                        covendx@gmail.com
+                        techtonic@gmail.com
                      </div>
                      
                      <div className={callus? 'footerOrange footerbtnwidth' : 'footerOrange' }
@@ -111,8 +111,8 @@ const Footer = () => {
         </div>
 
         <div className='footerCopyright'>
-            ©2024 Covendx, All Rights Reserved. <br />
-            (A Division of Janshakti Manpower Services Pvt. Ltd.)
+            ©2024 TechTonic, All Rights Reserved. <br />
+            {/* (A Division of Janshakti Manpower Services Pvt. Ltd.) */}
         </div>
     </div>
   )
