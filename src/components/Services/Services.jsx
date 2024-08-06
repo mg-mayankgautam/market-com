@@ -12,12 +12,9 @@ const Services = () => {
 
     const [showMoreServices, setshowMoreServices] = useState(false)
 
-   const showMoreservices = ()=>{
-
-    setshowMoreServices(prev=>!prev)
-
-
-   }
+    const showMoreservices = ()=>{
+        setshowMoreServices(prev=>!prev)
+    }
 
   return (
     <div className='Services'>
@@ -109,13 +106,16 @@ const Services = () => {
                 </button>
             </div>
           </div> 
-          {showMoreServices?<></>:
-            <button
-            onClick={()=>{showMoreservices()}}
-            >
-                View More services</button>
-}
+
         </div>
+
+        {showMoreServices?<></>:
+            <button className='viewMoreBtn'
+                onClick={()=>{showMoreservices()}}
+            >
+                View More services
+            </button>
+        }
 
         {showMoreServices?<div>more services</div>:<></>}
 

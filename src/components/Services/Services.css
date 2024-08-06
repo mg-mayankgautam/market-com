@@ -64,3 +64,10 @@
     color: antiquewhite;
     background-color: black;
 }
+
+.viewMoreBtn{
+    border: 1px solid antiquewhite;
+    color: antiquewhite;
+    align-self: flex-end;
+    width: 230px;
+}

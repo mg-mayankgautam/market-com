@@ -36,7 +36,7 @@ const Layout = () => {
 
       <Services/>
       <Clients/>
-      <Pricing/>
+      {/* <Pricing/> */}
       <Contact/>
 
 
