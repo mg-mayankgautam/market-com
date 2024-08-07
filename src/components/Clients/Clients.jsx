@@ -25,13 +25,15 @@ const Clients = () => {
 
       <Swiper
         slidesPerView={2}
-        spaceBetween={30}
+        spaceBetween={10}
         loop={true}
         // mousewheel={true}
         autoplay={{
-          delay: 1500,
+          delay: 3500,
           disableOnInteraction: false,
+          pauseOnMouseEnter:true
         }}
+        speed={3000}
         // pagination={{
         //   clickable: true,
         // }}

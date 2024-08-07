@@ -5,7 +5,7 @@ import photo from '../../assets/bg2.jpg'
 const About = ({scrollvar}) => {
 
     useEffect(()=>{
-        if(scrollvar>17){
+        if(scrollvar>15){
           const cards = document.querySelectorAll('.aboutCardsHead')
           cards[0].classList.add('one');
           cards[1].classList.add('two');

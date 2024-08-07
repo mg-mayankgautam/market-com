@@ -1,11 +1,12 @@
 import React from 'react'
 import './Nav.css'
+import logo from '../../assets/logo.png'
 
 const Nav = () => {
   return (
     <div className='Nav'>
         <div>
-            TechTonic
+            <img src={logo} className='logo' />
         </div>
 
         <div className='navItems'>
