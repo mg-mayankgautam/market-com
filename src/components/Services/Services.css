@@ -1,6 +1,6 @@
 .Services{
     padding: 64px 80px;
-    min-height: calc(100vh - 64px);
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -53,6 +53,7 @@
 
 .serviceName{
     font-weight: 500;
+    text-align: left;
 }
 
 .serviceBtn{
@@ -70,4 +71,22 @@
     color: antiquewhite;
     align-self: flex-end;
     width: 230px;
+}
+
+@media only screen and (orientation: portrait) {
+    .Services{
+        padding: 64px 24px;
+    }
+    
+    .servicesHead{
+        font-size: 32px;
+    }
+    
+    .serviceBox{
+        width: 100%;
+    }
+    
+    .serviceImgDiv{
+        width: 100%;
+    }
 }

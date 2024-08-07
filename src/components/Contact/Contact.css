@@ -76,3 +76,50 @@
 .icon{
     font-size: 20px !important;
 }
+
+
+@media only screen and (orientation: portrait) {
+    .Contact{
+        padding: 64px 24px;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    
+    .ContactMainBox{
+        width: 90%;
+        align-self: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .SendMsgBox{
+        width: calc(100% - 64px);
+        align-items: flex-start;
+        padding: 48px 32px 64px;
+    }
+    
+    .ContactSubBox{
+        align-self: flex-end;
+        position: static;
+        padding: 32px 48px 64px;
+        margin-top: -24px;
+        z-index: 1;
+    }
+    
+    .sendMsgContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+        margin-top: 40px;
+    }
+    
+    .contactInfoIcons{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    .icon{
+        font-size: 20px !important;
+    }
+}

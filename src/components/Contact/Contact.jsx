@@ -10,6 +10,22 @@ const Contact = () => {
   return (
 
     <div className='Contact'>
+        
+        <div className='ContactMainBox'>
+            <div className='SendMsgBox'>
+                
+                <div className='sendMsgHead'>
+                    Reach out for a new project 
+                    <br />or just say hello
+                </div>
+
+                <input type="text" placeholder='your name'/>
+                <input type="text" placeholder='your email'/>
+                <input type="text" placeholder='enter your message'/>
+
+                <button className='contactBtn'>SEND</button>
+            </div> 
+        </div>
 
         <div className='ContactSubBox'>
             <div>
@@ -36,22 +52,6 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <div className='ContactMainBox'>
-            <div className='SendMsgBox'>
-                
-                <div className='sendMsgHead'>
-                    Reach out for a new project 
-                    <br />or just say hello
-                </div>
-
-                <input type="text" placeholder='your name'/>
-                <input type="text" placeholder='your email'/>
-                <input type="text" placeholder='enter your message'/>
-
-                <button className='contactBtn'>SEND</button>
-            </div> 
         </div>
 
     </div>
