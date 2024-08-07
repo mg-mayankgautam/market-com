@@ -12,29 +12,30 @@ const Contact = () => {
     <div className='Contact'>
 
         <div className='ContactSubBox'>
-            <div className='sendMsgHead'>
-                Get In Touch
-            </div>
+            <div>
+                <div className='sendMsgHead'>
+                    Get In Touch
+                </div>
 
-            <div className='sendMsgContent'>
-                <div className='contactInfoIcons'>
-                    <IoLocationOutline className='icon'/> 
-                    32, Avenue Lorem, <br />Ipsum, 120004
-                </div>
-                <div className='contactInfoIcons'>
-                    <MdOutlineAttachEmail className='icon'/> 
-                    abc@gmail.com
-                </div>
-                <div className='contactInfoIcons'>
-                    <IoCallOutline className='icon'/> 
-                    9898989898
-                </div>
-                <div className='contactInfoIcons'>
-                    <FaInstagram className='icon'/> 
-                    Digital Marketing
+                <div className='sendMsgContent'>
+                    <div className='contactInfoIcons'>
+                        <IoLocationOutline className='icon'/> 
+                        32, Avenue Lorem, <br />Ipsum, 120004
+                    </div>
+                    <div className='contactInfoIcons'>
+                        <MdOutlineAttachEmail className='icon'/> 
+                        abc@gmail.com
+                    </div>
+                    <div className='contactInfoIcons'>
+                        <IoCallOutline className='icon'/> 
+                        9898989898
+                    </div>
+                    <div className='contactInfoIcons'>
+                        <FaInstagram className='icon'/> 
+                        Digital Marketing
+                    </div>
                 </div>
             </div>
-            
         </div>
         
         <div className='ContactMainBox'>

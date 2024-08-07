@@ -32,3 +32,20 @@
     color: white;
     margin-top: 32px;
 }
+
+@media only screen and (orientation: portrait){
+    .Hero{
+        padding: 64px 32px;
+        min-height: calc(100vh - 128px);
+        gap: 16px;
+    }
+    
+    .subHeadHero{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    
+    .mainHeadHero{
+        font-size: 40px;
+    }
+}

@@ -87,9 +87,7 @@
 }
 
 .aboutCardsHead{
-    /* align-self: end; */
     font-size: 60px;
-    z-index: 31;
   }
   .aboutCardsText{
     margin:0 20px 20px;
@@ -175,3 +173,94 @@
       --num: 5;
     }
   }
+
+
+
+@media only screen and (max-width: 850px){
+  .AboutMain{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .aboutImg{
+    width: 90%;
+    height: 200px;
+    margin: 0px 0;
+  }
+
+  .aboutBox1, .aboutBox2{
+    padding: 40px 24px;
+    font-size: 14px;
+    width: calc(50% - 48px);
+  }
+
+  .aboutBox1{
+    margin-top: -32px;
+  }
+
+  .aboutBox2{
+    margin: 0 0 24px;
+  }
+
+
+  .AboutNumbers{
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media only screen and (orientation: portrait) {
+  .About{
+    padding: 64px 24px;
+  }
+
+  .AboutMain{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aboutImg{
+    width: 90%;
+    align-self: flex-end;
+  }
+
+  .aboutBox1, .aboutBox2{
+    padding: 40px 32px;
+    width: calc(95% - 64px);
+  }
+
+  .aboutBox1{
+    margin-top: -32px;
+    align-self: flex-start;
+  }
+
+  .aboutBox2{
+    margin: -16px 0 24px;
+    z-index: 2;
+    align-self: flex-end;
+  }
+
+  .aboutHead{
+    font-size: 28px;
+  }
+
+
+  .aboutBtn{
+    
+  }
+
+  .AboutNumbers{
+    align-items: flex-start;
+    padding: 32px 0;
+  }
+
+  .aboutCards{
+    width: 40%;
+    align-items: center;
+  }
+
+  .aboutCardsHead{
+    font-size: 56px;
+  }
+}
