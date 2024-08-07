@@ -10,6 +10,9 @@ import moheera from '../../assets/moheera.png'
 import bhurji from '../../assets/bhurji.png'
 import homeproj from '../../assets/homeproj.png'
 import ruralhand from '../../assets/ruralhand.png'
+import businesscard from '../../assets/businesscard.png'
+import fuelmedia from '../../assets/fuelmedia.png'
+import aadmiwala from '../../assets/aadmiwala.png'
 import { Link } from 'react-router-dom';
 
 const Clients = () => {
@@ -24,7 +27,7 @@ const Clients = () => {
         slidesPerView={2}
         spaceBetween={30}
         loop={true}
-        mousewheel={true}
+        // mousewheel={true}
         autoplay={{
           delay: 1500,
           disableOnInteraction: false,
@@ -32,7 +35,7 @@ const Clients = () => {
         // pagination={{
         //   clickable: true,
         // }}
-        // navigation={true}s
+        navigation={true}
         modules={[Pagination, Navigation, Mousewheel, Autoplay]}
         className="mySwiper"
       >
@@ -65,6 +68,39 @@ const Clients = () => {
               <img src={bhurji} alt="" />
               <div className='projName'>
                 Bhurji Electronics
+              </div>
+            </div>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link>
+            <div className='projectCard'>
+              <img src={businesscard} alt="" style={{objectPosition:'center right'}}/>
+              <div className='projName'>
+                Business Card UI
+              </div>
+            </div>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link to='https://www.thefuelmedia.co/' target='_blank'>
+            <div className='projectCard'>
+              <img src={fuelmedia} alt="" />
+              <div className='projName'>
+                The Fuel Media
+              </div>
+            </div>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link to='https://aadmiwala.vercel.app/' target='_blank'>
+            <div className='projectCard'>
+              <img src={aadmiwala} alt="" />
+              <div className='projName'>
+                Aadmiwala
               </div>
             </div>
           </Link>
