@@ -38,6 +38,16 @@ const Clients = () => {
         //   clickable: true,
         // }}
         navigation={true}
+        breakpoints={{
+          250: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+          },
+          800: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+        }}
         modules={[Pagination, Navigation, Mousewheel, Autoplay]}
         className="mySwiper"
       >
