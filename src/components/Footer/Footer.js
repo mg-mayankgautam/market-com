@@ -24,17 +24,17 @@ const Footer = () => {
             <div>
                 <div className='footerHeading footerBold'>FOLLOW US</div>
                 <div className='footerList'>
-                    <a href="" target='_blank'>
+                    {/* <a href="" target='_blank'> */}
                         <div> 
                          LinkedIn
                         </div>
-                    </a>
+                    {/* </a> */}
 
-                    <a href="" target='_blank'>
+                    {/* <a href="" target='_blank'> */}
                         <div>
                          Instagram
                         </div>
-                    </a>
+                    {/* </a> */}
                 
                 </div>
             </div>
