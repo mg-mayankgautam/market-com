@@ -1,8 +1,10 @@
 import React from 'react'
 import './Nav.css'
 import logo from '../../assets/logo.png'
+import { useRef } from 'react'
 
-const Nav = () => {
+const Nav = ({about_ref,contact_ref}) => {
+  
   return (
     <div className='Nav'>
         <div>
@@ -10,9 +12,9 @@ const Nav = () => {
         </div>
 
         <div className='navItems'>
-            <div>Home</div>
-            <div>About</div>
-            <div>Contact</div>
+            <div ><button className='nav_btn'>Home</button></div>
+            <div><button className='nav_btn' onClick={()=>{about_ref.current?.scrollIntoView({behavior:'smooth'})}}>About</button></div>
+            <div><button className='nav_btn' onClick={()=>{contact_ref.current?.scrollIntoView({behavior:'smooth'})}}>Contact</button></div>
         </div>
     </div>
   )

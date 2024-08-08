@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './About.css'
 import photo from '../../assets/bg2.jpg'
 
-const About = ({scrollvar}) => {
+const About = ({about_ref,scrollvar}) => {
 
     useEffect(()=>{
         if(scrollvar>15){
@@ -16,7 +16,7 @@ const About = ({scrollvar}) => {
 
 
   return (
-    <div className='About'>
+    <div className='About'  ref={about_ref}>
         
         <div className='AboutMain'>
 

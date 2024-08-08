@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import { Outlet } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
 import Hero from './components/Hero/Hero';
@@ -23,21 +23,23 @@ const Layout = () => {
       setscrollvar(latest*100/height)
      console.log(scrollvar)
   })
-
+  const about_ref = useRef(null);
+  const contact_ref = useRef(null)
   return (
+    
   
     <div className="App">
       
-      <Nav/>
+      <Nav about_ref={about_ref} contact_ref={contact_ref}/>
 
       {/* <Outlet/> */}
       <Hero/>
-      <About scrollvar={scrollvar}/>
+      <About about_ref={about_ref} scrollvar={scrollvar}/>
 
       <Services/>
       <Clients/>
       {/* <Pricing/> */}
-      <Contact/>
+      <Contact contact_ref={contact_ref}/>
 
 
       <Footer/>

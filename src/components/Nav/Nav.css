@@ -36,3 +36,24 @@
         height: 32px;
     }
 }
+
+.nav_btn{
+  cursor: pointer;
+  /* background-color: transparent; */
+  padding: opx;
+  width: 200px;
+  font-size: 16px;
+  font-family: inherit;
+  /* margin-top: 32px; */
+  border: none !important;
+  color: antiquewhite;
+}
+
+.nav_btn:hover{
+    /* font-size: 18px; */
+    background-color: transparent;
+    color: antiquewhite;
+    font-weight: 600;
+    border-color: black;
+    /* text-decoration: underline; */
+  }

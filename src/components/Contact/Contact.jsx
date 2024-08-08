@@ -6,10 +6,10 @@ import { IoLocationOutline } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
 
 
-const Contact = () => {
+const Contact = ({contact_ref}) => {
   return (
 
-    <div className='Contact'>
+    <div className='Contact' ref={contact_ref}>
         
         <div className='ContactMainBox'>
             <div className='SendMsgBox'>
@@ -36,20 +36,20 @@ const Contact = () => {
                 <div className='sendMsgContent'>
                     <div className='contactInfoIcons'>
                         <IoLocationOutline className='icon'/> 
-                        32, Avenue Lorem, <br />Ipsum, 120004
+                        Signature Global Millennia 1, <br />Gurugram, Haryana
                     </div>
                     <div className='contactInfoIcons'>
                         <MdOutlineAttachEmail className='icon'/> 
-                        abc@gmail.com
+                        contact@techtonicmedia.in
                     </div>
                     <div className='contactInfoIcons'>
                         <IoCallOutline className='icon'/> 
-                        9898989898
+                        999699649
                     </div>
-                    <div className='contactInfoIcons'>
+                    {/* <div className='contactInfoIcons'>
                         <FaInstagram className='icon'/> 
                         Digital Marketing
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
