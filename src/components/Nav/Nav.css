@@ -21,6 +21,23 @@
     height: 36px;
 }
 
+.nav_btn{
+    cursor: pointer;
+    padding: 0px;
+    width: 64px;
+    font-size: inherit;
+    font-family: inherit;
+    border: none !important;
+    color: antiquewhite;
+    margin-top: 0px;
+  }
+  
+  .nav_btn:hover{
+      background-color: transparent;
+      color: antiquewhite;
+      font-weight: 600;
+    }
+
 @media only screen and (orientation: portrait){
     .Nav{
         padding: 0 24px;
@@ -36,24 +53,3 @@
         height: 32px;
     }
 }
-
-.nav_btn{
-  cursor: pointer;
-  /* background-color: transparent; */
-  padding: opx;
-  width: 200px;
-  font-size: 16px;
-  font-family: inherit;
-  /* margin-top: 32px; */
-  border: none !important;
-  color: antiquewhite;
-}
-
-.nav_btn:hover{
-    /* font-size: 18px; */
-    background-color: transparent;
-    color: antiquewhite;
-    font-weight: 600;
-    border-color: black;
-    /* text-decoration: underline; */
-  }

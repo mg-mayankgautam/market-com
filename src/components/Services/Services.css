@@ -69,7 +69,7 @@
 .viewMoreBtn{
     border: 1px solid antiquewhite;
     color: antiquewhite;
-    align-self: flex-end;
+    align-self: center;
     width: 230px;
 }
 
