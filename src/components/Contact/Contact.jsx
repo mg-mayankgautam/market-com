@@ -44,7 +44,7 @@ const Contact = ({contact_ref}) => {
                     </div>
                     <div className='contactInfoIcons'>
                         <IoCallOutline className='icon'/> 
-                        999699649
+                        9990699649
                     </div>
                     {/* <div className='contactInfoIcons'>
                         <FaInstagram className='icon'/> 
