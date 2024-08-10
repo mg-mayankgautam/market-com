@@ -1,9 +1,8 @@
 import React from 'react'
 import './Contact.css'
-import { IoCallOutline } from "react-icons/io5";
-import { MdOutlineAttachEmail } from "react-icons/md";
-import { IoLocationOutline } from "react-icons/io5";
-import { FaInstagram } from "react-icons/fa";
+import location from '../../assets/locationlogo.png'
+import mail from '../../assets/maillogo.png'
+import call from '../../assets/calllogo.png'
 
 
 const Contact = ({contact_ref}) => {
@@ -34,22 +33,25 @@ const Contact = ({contact_ref}) => {
                 </div>
 
                 <div className='sendMsgContent'>
-                    <div className='contactInfoIcons'>
-                        <IoLocationOutline className='icon'/> 
-                        Signature Global Millennia 1, <br />Gurugram, Haryana
-                    </div>
-                    <div className='contactInfoIcons'>
-                        <MdOutlineAttachEmail className='icon'/> 
-                        contact@techtonicmedia.in
-                    </div>
-                    <div className='contactInfoIcons'>
-                        <IoCallOutline className='icon'/> 
-                        9990699649
-                    </div>
-                    {/* <div className='contactInfoIcons'>
-                        <FaInstagram className='icon'/> 
-                        Digital Marketing
-                    </div> */}
+                    <a><div className='contactInfoIcons'>
+                        <img src={location} className='icon' /> 
+                        <div>Signature Global Millennia 1, <br />Gurugram, Haryana</div>
+                    </div></a>
+
+                    <a href="mailto:contact@techtonicmedia.in" target='_blank'> 
+                        <div className='contactInfoIcons'>
+                            <img src={mail} className='icon'/> 
+                            <div>contact@techtonicmedia.in</div>
+                        </div>
+                    </a>
+
+                    <a href="tel:+919990699649">
+                        <div className='contactInfoIcons'>
+                            <img src={call} className='icon'/> 
+                            <div>9990699649</div>
+                        </div>
+                    </a>
+                    {/*<a href="https://wa.me/919100981008" target='_blank'> */}
                 </div>
             </div>
         </div>

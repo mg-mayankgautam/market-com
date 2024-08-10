@@ -29,11 +29,11 @@ const Clients = () => {
         loop={true}
         // mousewheel={true}
         autoplay={{
-          delay: 3500,
+          delay: 2500,
           disableOnInteraction: false,
           pauseOnMouseEnter:true
         }}
-        speed={3000}
+        speed={1800}
         // pagination={{
         //   clickable: true,
         // }}

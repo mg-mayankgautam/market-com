@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Footer.css'
-import fb from '../../assets/fblogo.png'
+import lkdn from '../../assets/lkdnlogo.png'
 import ig from '../../assets/iglogo.png'
 import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
@@ -24,16 +24,17 @@ const Footer = () => {
             <div>
                 <div className='footerHeading footerBold'>FOLLOW US</div>
                 <div className='footerList'>
-                    <a href="" target='_blank'>
+                    {/* <a href="" target='_blank'> */}
                         <div> 
-                         Facebook
+                         LinkedIn
                         </div>
-                    </a>
+                    {/* </a> */}
 
-                    <a href="" target='_blank'>
+                    {/* <a href="" target='_blank'> */}
                         <div>
-                            Instagram</div>
-                    </a>
+                         Instagram
+                        </div>
+                    {/* </a> */}
                 
                 </div>
             </div>
@@ -52,10 +53,10 @@ const Footer = () => {
 
 
         <div className='footerTerms'>
-            <div>©2024 TechTonic, All Rights Reserved.</div>
+            <div>©2024 TechTonicMedia, All Rights Reserved.</div>
 
             <div className='footerSocialMedia'>
-                <div><img src={fb}/></div>
+                <div><img src={lkdn}/></div>
                 <div><img src={ig}/></div>
             </div>
         </div>
