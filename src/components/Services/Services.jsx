@@ -175,28 +175,30 @@ const Services = () => {
 
         {showMoreServices?
             <div className='more_service_container'>
+
                 <div className='headings'>
-                    <div className='service_heading' onClick={()=>{toggle1()}}>DESIGN</div>
-                    <div className='service_heading' onClick={()=>{toggle2()}}>DIGITAL MARKETING</div>
-                    <div className='service_heading' onClick={()=>{toggle3()}}>DEVELOPEMENT</div>
-                    <div className='service_heading' onClick={()=>{toggle4()}}>SEO</div>
-                    <div className='service_heading' onClick={()=>{toggle5()}}>CONTENT WRITING</div>
+                    <div className={first? 'service_heading selected':'service_heading'} onClick={()=>{toggle1()}}>DESIGN</div>
+                    <div className={second? 'service_heading selected':'service_heading'} onClick={()=>{toggle2()}}>DIGITAL MARKETING</div>
+                    <div className={third? 'service_heading selected':'service_heading'} onClick={()=>{toggle3()}}>DEVELOPEMENT</div>
+                    <div className={fourth? 'service_heading selected':'service_heading'} onClick={()=>{toggle4()}}>SEO</div>
+                    <div className={fifth? 'service_heading selected':'service_heading'} onClick={()=>{toggle5()}}>CONTENT WRITING</div>
                 </div>
+
                 <div className='content'>
                     {first? 
                     <div >
-                        <div>UI/UX DESIGN</div>
-                        <div>E-COMMERCE DESIGN</div>
-                        <div>APP DESIGN</div>
-                        <div>PRODUCT DESIGN</div>
-                        <div>LOGO DESIGN</div>
-                        <div>CARD DESIGN</div>
-                        <div>SOCIAL MEDIA POST DESIGN</div>
-                        <div>BANNER DESIGN</div>
-                        <div>ADVERTISMENT DESIGN</div>
-                        <div>CATALOGUE DESIGN</div>
+                        <div className='service'>UI/UX DESIGN</div>
+                        <div className='service'>E-COMMERCE DESIGN</div>
+                        <div className='service'>APP DESIGN</div>
+                        <div className='service'>PRODUCT DESIGN</div>
+                        <div className='service'>LOGO DESIGN</div>
+                        <div className='service'>CARD DESIGN</div>
+                        <div className='service'>SOCIAL MEDIA POST DESIGN</div>
+                        <div className='service'>BANNER DESIGN</div>
+                        <div className='service'>ADVERTISMENT DESIGN</div>
+                        <div className='service'>CATALOGUE DESIGN</div>
                         
-                        <div>Infographics Design</div>
+                        <div className='service'>Infographics Design</div>
 
 
 
@@ -204,47 +206,47 @@ const Services = () => {
 
                     {second?
                     <div >
-                        <div>FB MARKETING</div>
-                        <div>INSTA MARKETING</div>
-                        <div>X MARKETING</div>
-                        <div>LINKEDIN MARKETING</div>
-                        <div>AFFILIATE MARKETING</div>
-                        <div>EMAIL MARKETING</div>
-                        <div>VIDEO MARKETING</div>
-                        <div>VIDEO EDITING</div>
-                        <div>INSTA REEL EDITING</div>
-                        <div>YOUTUBE SHORTS EDITING</div>
+                        <div className='service'>FB MARKETING</div>
+                        <div className='service'>INSTA MARKETING</div>
+                        <div className='service'>X MARKETING</div>
+                        <div className='service'>LINKEDIN MARKETING</div>
+                        <div className='service'>AFFILIATE MARKETING</div>
+                        <div className='service'>EMAIL MARKETING</div>
+                        <div className='service'>VIDEO MARKETING</div>
+                        <div className='service'>VIDEO EDITING</div>
+                        <div className='service'>INSTA REEL EDITING</div>
+                        <div className='service'>YOUTUBE SHORTS EDITING</div>
 
                     </div>:<></>}
 
 
                     {third? <div >
-                        <div>CUSTOM WEBSITES</div>
-                        <div>STATIC WEBSITES</div>
-                        <div>PRODUCT WEBSITES</div>
-                        <div>SHOPIFY DEVELOPEMENT</div>
-                        <div>WORDPRESS DEVELOPMENT</div>
-                        <div>IOS DEVELOPMENT</div>
-                        <div>ANDROID DEVELOPMENT</div>
-                        <div>ECOMMERCE WEBSITES</div>
-                        <div>CMS(CONTENT Management SYSTEM)</div>
-                        <div>YOUTUBE SHORTS EDITING</div>
+                        <div className='service'>CUSTOM WEBSITES</div>
+                        <div className='service'>STATIC WEBSITES</div>
+                        <div className='service'>PRODUCT WEBSITES</div>
+                        <div className='service'>SHOPIFY DEVELOPEMENT</div>
+                        <div className='service'>WORDPRESS DEVELOPMENT</div>
+                        <div className='service'>IOS DEVELOPMENT</div>
+                        <div className='service'>ANDROID DEVELOPMENT</div>
+                        <div className='service'>ECOMMERCE WEBSITES</div>
+                        <div className='service'>CMS(CONTENT Management SYSTEM)</div>
+                        <div className='service'>YOUTUBE SHORTS EDITING</div>
                     </div>:<></>}
 
                     {fourth?<div >
-                        <div>ON-PAGE SEO</div>
-                        <div>OFF PAGE SEO</div>
-                        <div>ECOMMERCE SEO</div>
-                        <div>MULTILNGUAL SEO</div>
-                        <div>ENTERPRISE SEO</div>
-                        <div>YOUTUBE SEO</div>
-                        <div>APP STORE OPTIMSATION</div>
+                        <div className='service'>ON-PAGE SEO</div>
+                        <div className='service'>OFF PAGE SEO</div>
+                        <div className='service'>ECOMMERCE SEO</div>
+                        <div className='service'>MULTILNGUAL SEO</div>
+                        <div className='service'>ENTERPRISE SEO</div>
+                        <div className='service'>YOUTUBE SEO</div>
+                        <div className='service'>APP STORE OPTIMSATION</div>
                         {/* <div>ANDROID DEVELOPMENT</div>
                         
                         <div>CMS(CONTENT Management SYSTEM)</div>
                         <div>YOUTUBE SHORTS EDITING</div> */}
                     </div>:<></>}
-                    {fifth? <div > <div>WEBSITE CONTENT WRITING</div></div>:<></>}
+                    {fifth? <div > <div className='service'>WEBSITE CONTENT WRITING</div></div>:<></>}
                     
                    
                     
