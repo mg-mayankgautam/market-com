@@ -176,28 +176,77 @@ const Services = () => {
         {showMoreServices?
             <div className='more_service_container'>
                 <div className='headings'>
-                    <div className='service_heading' onClick={()=>{toggle1()}}>service1</div>
-                    <div className='service_heading' onClick={()=>{toggle2()}}>service2</div>
-                    <div className='service_heading' onClick={()=>{toggle3()}}>service3</div>
-                    <div className='service_heading' onClick={()=>{toggle4()}}>service4</div>
-                    <div className='service_heading' onClick={()=>{toggle5()}}> service5</div>
+                    <div className='service_heading' onClick={()=>{toggle1()}}>DESIGN</div>
+                    <div className='service_heading' onClick={()=>{toggle2()}}>DIGITAL MARKETING</div>
+                    <div className='service_heading' onClick={()=>{toggle3()}}>DEVELOPEMENT</div>
+                    <div className='service_heading' onClick={()=>{toggle4()}}>SEO</div>
+                    <div className='service_heading' onClick={()=>{toggle5()}}>CONTENT WRITING</div>
                 </div>
                 <div className='content'>
                     {first? 
-                    <div >service1
-                        <div >service1.1
+                    <div >
+                        <div>UI/UX DESIGN</div>
+                        <div>E-COMMERCE DESIGN</div>
+                        <div>APP DESIGN</div>
+                        <div>PRODUCT DESIGN</div>
+                        <div>LOGO DESIGN</div>
+                        <div>CARD DESIGN</div>
+                        <div>SOCIAL MEDIA POST DESIGN</div>
+                        <div>BANNER DESIGN</div>
+                        <div>ADVERTISMENT DESIGN</div>
+                        <div>CATALOGUE DESIGN</div>
+                        
+                        <div>Infographics Design</div>
 
-                        </div>
-                        <div >service1.2
 
-                        </div>
+
                     </div>:<></>}
-                    {second?<div >service2</div>:<></>}
-                    {third? <div >service3</div>:<></>}
-                    {fourth?<div >service4</div>:<></>}
-                    {fifth? <div >service5</div>:<></>}
-                    
 
+                    {second?
+                    <div >
+                        <div>FB MARKETING</div>
+                        <div>INSTA MARKETING</div>
+                        <div>X MARKETING</div>
+                        <div>LINKEDIN MARKETING</div>
+                        <div>AFFILIATE MARKETING</div>
+                        <div>EMAIL MARKETING</div>
+                        <div>VIDEO MARKETING</div>
+                        <div>VIDEO EDITING</div>
+                        <div>INSTA REEL EDITING</div>
+                        <div>YOUTUBE SHORTS EDITING</div>
+
+                    </div>:<></>}
+
+
+                    {third? <div >
+                        <div>CUSTOM WEBSITES</div>
+                        <div>STATIC WEBSITES</div>
+                        <div>PRODUCT WEBSITES</div>
+                        <div>SHOPIFY DEVELOPEMENT</div>
+                        <div>WORDPRESS DEVELOPMENT</div>
+                        <div>IOS DEVELOPMENT</div>
+                        <div>ANDROID DEVELOPMENT</div>
+                        <div>ECOMMERCE WEBSITES</div>
+                        <div>CMS(CONTENT Management SYSTEM)</div>
+                        <div>YOUTUBE SHORTS EDITING</div>
+                    </div>:<></>}
+
+                    {fourth?<div >
+                        <div>ON-PAGE SEO</div>
+                        <div>OFF PAGE SEO</div>
+                        <div>ECOMMERCE SEO</div>
+                        <div>MULTILNGUAL SEO</div>
+                        <div>ENTERPRISE SEO</div>
+                        <div>YOUTUBE SEO</div>
+                        <div>APP STORE OPTIMSATION</div>
+                        {/* <div>ANDROID DEVELOPMENT</div>
+                        
+                        <div>CMS(CONTENT Management SYSTEM)</div>
+                        <div>YOUTUBE SHORTS EDITING</div> */}
+                    </div>:<></>}
+                    {fifth? <div > <div>WEBSITE CONTENT WRITING</div></div>:<></>}
+                    
+                   
                     
                 </div>
                 
