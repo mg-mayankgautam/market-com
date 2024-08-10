@@ -13,8 +13,24 @@ const Nav = ({about_ref,contact_ref}) => {
 
         <div className='navItems'>
             <div ><button className='nav_btn'>Home</button></div>
-            <div><button className='nav_btn' onClick={()=>{about_ref.current?.scrollIntoView({behavior:'smooth'})}}>About</button></div>
-            <div><button className='nav_btn' onClick={()=>{contact_ref.current?.scrollIntoView({behavior:'smooth'})}}>Contact</button></div>
+
+            <div>
+              <button 
+              className='nav_btn' 
+              onClick={()=>{about_ref.current?.scrollIntoView({behavior:'smooth'})}}
+              >
+                About
+              </button>
+            </div>
+
+            <div>
+              <button 
+              className='nav_btn' 
+              onClick={()=>{contact_ref.current?.scrollIntoView({behavior:'smooth'})}}
+              >
+                Contact
+              </button>
+            </div>
         </div>
     </div>
   )

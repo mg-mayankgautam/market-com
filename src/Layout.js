@@ -33,7 +33,7 @@ const Layout = () => {
       <Nav about_ref={about_ref} contact_ref={contact_ref}/>
 
       {/* <Outlet/> */}
-      <Hero/>
+      <Hero contact_ref={contact_ref}/>
       <About about_ref={about_ref} scrollvar={scrollvar}/>
 
       <Services/>

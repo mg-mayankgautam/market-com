@@ -16,6 +16,62 @@ const Services = () => {
         setshowMoreServices(prev=>!prev)
     }
 
+    const [first, setfirst] = useState(true);
+    const [second, setsecond] = useState(false);
+    const [third, setthird] = useState(false);
+    const [fourth, setfourth] = useState(false);
+    const [fifth, setfifth] = useState(false);
+
+    const toggle1 = () =>{
+        if(!first)setfirst(e=>!e)
+
+        if(second)setsecond(e=>!e)
+        if(third)setthird(e=>!e)
+        if(fourth)setfourth(e=>!e)
+        if(fifth)setfifth(e=>!e)        
+
+    }
+    const toggle2 = () =>{
+        if(!second)setsecond(e=>!e)
+
+        if(first)setfirst(e=>!e)
+        if(third)setthird(e=>!e)
+        if(fourth)setfourth(e=>!e)
+        if(fifth)setfifth(e=>!e)    
+
+    }
+    const toggle3 = () =>{
+        if(!third)setthird(e=>!e)
+
+        if(first)setfirst(e=>!e)
+        if(second)setsecond(e=>!e)
+        if(fourth)setfourth(e=>!e)
+        if(fifth)setfifth(e=>!e)    
+
+
+
+    }
+    const toggle4 = () =>{
+        if(!fourth)setfourth(e=>!e)
+
+
+        if(first)setfirst(e=>!e)
+        if(second)setsecond(e=>!e)
+        if(third)setthird(e=>!e)             
+        if(fifth)setfifth(e=>!e)    
+
+    }
+    const toggle5 = () =>{
+      if(!fifth)setfifth(e=>!e)
+
+      if(first)setfirst(e=>!e)
+      if(second)setsecond(e=>!e)
+      if(third)setthird(e=>!e)             
+      if(fourth)setfourth(e=>!e)  
+        
+
+    }
+
   return (
     <div className='Services'>
         
@@ -117,7 +173,37 @@ const Services = () => {
             </button>
         }
 
-        {showMoreServices?<div>more services</div>:<></>}
+        {showMoreServices?
+            <div className='more_service_container'>
+                <div className='headings'>
+                    <div className='service_heading' onClick={()=>{toggle1()}}>service1</div>
+                    <div className='service_heading' onClick={()=>{toggle2()}}>service2</div>
+                    <div className='service_heading' onClick={()=>{toggle3()}}>service3</div>
+                    <div className='service_heading' onClick={()=>{toggle4()}}>service4</div>
+                    <div className='service_heading' onClick={()=>{toggle5()}}> service5</div>
+                </div>
+                <div className='content'>
+                    {first? 
+                    <div >service1
+                        <div >service1.1
+
+                        </div>
+                        <div >service1.2
+
+                        </div>
+                    </div>:<></>}
+                    {second?<div >service2</div>:<></>}
+                    {third? <div >service3</div>:<></>}
+                    {fourth?<div >service4</div>:<></>}
+                    {fifth? <div >service5</div>:<></>}
+                    
+
+                    
+                </div>
+                
+
+            </div>
+        :<></>}
 
         
 

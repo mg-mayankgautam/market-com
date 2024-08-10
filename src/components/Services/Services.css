@@ -69,7 +69,7 @@
 .viewMoreBtn{
     border: 1px solid antiquewhite;
     color: antiquewhite;
-    align-self: flex-end;
+    align-self: center;
     width: 230px;
 }
 
@@ -89,4 +89,31 @@
     .serviceImgDiv{
         width: 100%;
     }
+}
+
+
+.more_service_container{
+
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* flex-direction:column; */
+}
+
+.headings{
+    border: 5px solid white;
+    /* /* min-width: 20px; */
+    width: 25%;
+    /* min-height: 20px;
+    max-height: 20px;  */
+}
+
+.service_heading{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.content{
+    border: 5px solid rgb(126, 24, 24);
+     min-width: 75%; 
 }
