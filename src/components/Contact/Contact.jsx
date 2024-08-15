@@ -46,7 +46,7 @@ const Contact = ({contact_ref}) => {
                     <br />or just say hello
                 </div>
 
-                <input type="text" onChange={(e)=> setName(e.target.value)} placeholder='your name'/>
+                <input className='contact_input' type="text" onChange={(e)=> setName(e.target.value)} placeholder='your name'/>
                 <input type="text" onChange={(e)=> setEmail(e.target.value)} placeholder='your email'/>
                 <input type="number" onChange={(e)=> setPhone(e.target.value)} placeholder='your phone'/>
                 <input type="text" onChange={(e)=> setMsg(e.target.value)} placeholder='enter your message'/>

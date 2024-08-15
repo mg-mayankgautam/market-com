@@ -25,6 +25,7 @@
     /* justify-content: center; */
     gap: 16px;
     padding: 64px 40px;
+    /* color:white; */
     /* background-color: aquamarine; */
 }
 
@@ -71,6 +72,10 @@
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+contact_input{
+color:white;
 }
 
 .icon{
