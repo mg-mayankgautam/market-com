@@ -21,7 +21,7 @@ const About = ({ about_ref, scrollvar }) => {
             <div className='AboutMain'>
 
                 <div className='aboutImg'>
-                    <img src={photo} alt="" />
+                    <img src={photo} alt="" loading='lazy'/>
                 </div>
 
                 <div className='aboutBox1'>

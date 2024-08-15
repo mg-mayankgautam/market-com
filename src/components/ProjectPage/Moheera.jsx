@@ -78,10 +78,10 @@ const Moheera = () => {
                     <div className='companyProfile'>
 
                         <div className='proj_halfImg'>
-                            <img src={imagery1} />
+                            <img src={imagery1} loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={imagery2} />
+                            <img src={imagery2} loading='lazy'/>
                         </div>
 
                     </div>
@@ -95,13 +95,13 @@ const Moheera = () => {
 
                     <div className='companyLogos'>
                         <div className='proj_halfImg'>
-                            <img src={logo1} />
+                            <img src={logo1} loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={pallette} />
+                            <img src={pallette} loading='lazy'/>
                         </div>
                         <div className='proj_fullImg'>
-                            <img src={logocolors} />
+                            <img src={logocolors} loading='lazy'/>
                         </div>
                     </div>
 
@@ -115,7 +115,7 @@ const Moheera = () => {
 
                     <div className='companyInfoGr'>
                         <div className='proj_fullImg'>
-                            <img src={typo} />
+                            <img src={typo} loading='lazy'/>
                         </div>
                     </div>
 
@@ -129,19 +129,19 @@ const Moheera = () => {
 
                     <div className='companyUI'>
                         <div className='proj_halfImg'>
-                            <img src={ui1} />
+                            <img src={ui1} loading='lazy'/>
                         </div>
                         {/* <div className='proj_halfImg'>
-                            <img src={ui2} />
+                            <img src={ui2} loading='lazy'/>
                         </div> */}
                         <div className='proj_halfImg'>
-                            <img src={ui5} />
+                            <img src={ui5} loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui3} />
+                            <img src={ui3} loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui4} />
+                            <img src={ui4} loading='lazy'/>
                         </div>
                     </div>
 

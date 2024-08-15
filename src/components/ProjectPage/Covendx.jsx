@@ -85,22 +85,22 @@ const Covendx = () => {
                     <div className='companyProfile'>
 
                         <div className='proj_halfImg'>
-                            <img src={p1} />
+                            <img src={p1} loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={p2} />
+                            <img src={p2} loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={p3} />
+                            <img src={p3} loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={p4} />
+                            <img src={p4} loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={p5} />
+                            <img src={p5} loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={p6} />
+                            <img src={p6} loading='lazy'/>
                         </div>
 
                     </div>
@@ -114,19 +114,19 @@ const Covendx = () => {
 
                     <div className='companyLogos'>
                         <div className='proj_halfImg'>
-                            <img src={logo1} alt="" />
+                            <img src={logo1} alt="" loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={pallette} alt="" />
+                            <img src={pallette} alt="" loading='lazy'/>
                         </div>
                         <div className='proj_fullImg'>
-                            <img src={logo2} alt="" />
+                            <img src={logo2} alt="" loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={logosecond} alt="" />
+                            <img src={logosecond} alt="" loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={logoyellow} alt="" />
+                            <img src={logoyellow} alt="" loading='lazy'/>
                         </div>
                     </div>           
 
@@ -140,7 +140,7 @@ const Covendx = () => {
 
                     <div className='companyInfoGr'>
                         <div className='proj_fullImg'>
-                            <img src={infographic} alt="" />
+                            <img src={infographic} alt="" loading='lazy'/>
                         </div>
                         
                     </div>                  
@@ -156,16 +156,16 @@ const Covendx = () => {
                     <div className='companyUI'>
 
                         <div className='proj_halfImg'>
-                            <img src={ui1} />
+                            <img src={ui1} loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui2} />
+                            <img src={ui2} loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui3} />
+                            <img src={ui3} loading='lazy'/>
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui4} />
+                            <img src={ui4} loading='lazy'/>
                         </div>
 
                     </div>

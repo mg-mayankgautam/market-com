@@ -56,7 +56,7 @@ const Clients = () => {
         <SwiperSlide>
           <Link to='/project/covendx'>
             <div className='projectCard'>
-              <img src={covendx} alt="" />
+              <img src={covendx} alt="" loading='lazy'/>
               <div className='projName'>
                 Covendx
               </div>
@@ -67,7 +67,7 @@ const Clients = () => {
         <SwiperSlide>
           <Link to='/project/moheera'>
             <div className='projectCard'>
-              <img src={moheera} alt="" />
+              <img src={moheera} alt="" loading='lazy'/>
               <div className='projName'>
                 Moheera Jewels
               </div>
@@ -78,7 +78,7 @@ const Clients = () => {
         <SwiperSlide>
           <Link to='/project/bhurjielectronics'>
             <div className='projectCard'>
-              <img src={bhurji} alt="" />
+              <img src={bhurji} alt="" loading='lazy'/>
               <div className='projName'>
                 Bhurji Electronics
               </div>
@@ -89,7 +89,7 @@ const Clients = () => {
         <SwiperSlide>
           <Link>
             <div className='projectCard'>
-              <img src={businesscard} alt="" style={{objectPosition:'center right'}}/>
+              <img src={businesscard} alt="" style={{objectPosition:'center right'}} loading='lazy'/>
               <div className='projName'>
                 Business Card UI
               </div>
@@ -100,7 +100,7 @@ const Clients = () => {
         <SwiperSlide>
           <Link to='https://www.thefuelmedia.co/' target='_blank'>
             <div className='projectCard'>
-              <img src={fuelmedia} alt="" />
+              <img src={fuelmedia} alt="" loading='lazy'/>
               <div className='projName'>
                 The Fuel Media
               </div>
@@ -111,7 +111,7 @@ const Clients = () => {
         <SwiperSlide>
           <Link to='/project/aadmiwala'>
             <div className='projectCard'>
-              <img src={aadmiwala} alt="" />
+              <img src={aadmiwala} alt="" loading='lazy'/>
               <div className='projName'>
                 Aadmiwala
               </div>
@@ -122,7 +122,7 @@ const Clients = () => {
         <SwiperSlide>
           <Link to='/project/homeproject'>
             <div className='projectCard'>
-              <img src={homeproj} alt="" />
+              <img src={homeproj} alt="" loading='lazy'/>
               <div className='projName'>
                 Home Project
               </div>
@@ -133,7 +133,7 @@ const Clients = () => {
         <SwiperSlide>
           <Link to='https://ruralhandmade.com/' target='_blank'>
             <div className='projectCard'>
-              <img src={ruralhand} alt="" />
+              <img src={ruralhand} alt="" loading='lazy'/>
               <div className='projName'>
                 Rural Handmade
               </div>

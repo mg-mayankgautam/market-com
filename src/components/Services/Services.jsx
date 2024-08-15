@@ -81,7 +81,7 @@ const Services = () => {
 
           <div className='serviceBox'>
             <div className='serviceImgDiv'>
-                <img src={webdev} />
+                <img src={webdev} loading='lazy'/>
             </div>
             <div className='serviceContent'>
                 <div className='serviceName'>
@@ -95,7 +95,7 @@ const Services = () => {
 
           <div className='serviceBox'>
             <div className='serviceImgDiv'>
-                <img src={appdev} />
+                <img src={appdev} loading='lazy'/>
             </div>
             <div className='serviceContent'>
                 <div className='serviceName'>
@@ -109,7 +109,7 @@ const Services = () => {
 
           <div className='serviceBox'>
             <div className='serviceImgDiv'>
-                <img src={pdesign} />
+                <img src={pdesign} loading='lazy'/>
             </div>
             <div className='serviceContent'>
                 <div className='serviceName'>
@@ -123,7 +123,7 @@ const Services = () => {
 
           <div className='serviceBox'>
             <div className='serviceImgDiv'>
-                <img src={sm} />
+                <img src={sm} loading='lazy'/>
             </div>
             <div className='serviceContent'>
                 <div className='serviceName'>
@@ -137,7 +137,7 @@ const Services = () => {
 
           <div className='serviceBox'>
             <div className='serviceImgDiv'>
-                <img src={cm} />
+                <img src={cm} loading='lazy'/>
             </div>
             <div className='serviceContent'>
                 <div className='serviceName'>
@@ -151,7 +151,7 @@ const Services = () => {
 
           <div className='serviceBox'>
             <div className='serviceImgDiv'>
-                <img src={seo} />
+                <img src={seo} loading='lazy'/>
             </div>
             <div className='serviceContent'>
                 <div className='serviceName'>
