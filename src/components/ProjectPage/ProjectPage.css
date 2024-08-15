@@ -43,8 +43,10 @@
 
 .proj_halfImg{
     width: calc(46% - 32px);
+    /* height: 100%; */
     display: flex;
     justify-content: center;
+    /* align-items:flex-start; */
     background-color: rgba(0, 0, 0, 0.39);
     background-color: antiquewhite;
     padding: 16px;
@@ -91,7 +93,7 @@
     justify-content: center;
 }
 .companyInfoGr>div{
-    width: 70%;
+    width: 50%;
 }
 
 .proj_SubHead{

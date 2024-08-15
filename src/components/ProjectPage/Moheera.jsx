@@ -1,25 +1,18 @@
 import React, { useEffect } from 'react'
-import './ProjectPage.css'
-import p1 from '../../assets/covendx/02.jpg'
-import p2 from '../../assets/covendx/04.jpg'
-import p3 from '../../assets/covendx/06.jpg'
-import p4 from '../../assets/covendx/08.jpg'
-import p5 from '../../assets/covendx/09.jpg'
-import p6 from '../../assets/covendx/10.jpg'
-import logo1 from '../../assets/covendx/logo1.png'
-import logo2 from '../../assets/covendx/logo2.png'
-import logosecond from '../../assets/covendx/seconlogo.png'
-import logoyellow from '../../assets/covendx/logoyellow.png'
-import logogreen from '../../assets/covendx/logogreen.png'
-import pallette from '../../assets/covendx/pallette.png'
-import infographic from '../../assets/covendx/infographic.png'
-import ui1 from '../../assets/covendx/ui1.jpg'
-import ui2 from '../../assets/covendx/ui2.jpg'
-import ui3 from '../../assets/covendx/ui3.jpg'
-import ui4 from '../../assets/covendx/ui4.jpg'
+import imagery1 from '../../assets/moheera/imagery1.png'
+import imagery2 from '../../assets/moheera/imagery2.png'
+import logo1 from '../../assets/moheera/logo.png'
+// import logo2 from '../../assets/moheera/logo2.png'
+import logocolors from '../../assets/moheera/logocolors.png'
+import typo from '../../assets/moheera/typo.png'
+import pallette from '../../assets/moheera/pallette.png'
+import ui1 from '../../assets/moheera/ui1.png'
+// import ui2 from '../../assets/moheera/ui2.png'
+import ui3 from '../../assets/moheera/ui3.png'
+import ui4 from '../../assets/moheera/ui4.png'
+import ui5 from '../../assets/moheera/ui5.png'
 
-
-const Covendx = () => {
+const Moheera = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -54,7 +47,7 @@ const Covendx = () => {
                         About The Brand
                     </div>
                     <div className='proj_text'>
-                        Covendx is a vendor/staffing solutions company that provides a One-Stop platform simplifying the process of connecting with the right vendors. The company understands the critical importance of having the right personnel and is dedicated to managing all vendor needs while clients focus on driving their businesses forward.
+                        Moheera is a jewellery brand specializing in lab-grown diamonds. It offers customers meticulously crafted jewellery, designed with attention to detail. Moheera emphasizes versatile designs, ranging from statement pieces to jewellery suitable for everyday wear.
                     </div>
 
                 </div>
@@ -67,7 +60,7 @@ const Covendx = () => {
                         The Challenge
                     </div>
                     <div className='proj_text'>
-                        When it comes to Corporate vendor procuremnt a very few prominent players stand tall. In such a category, it is essential to make position your brand as a trusted source of vendors.  Covendx came to us with the challenge of making a brand identity which helps them become a unique force in this space.
+
                     </div>
 
                 </div>
@@ -80,27 +73,15 @@ const Covendx = () => {
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>1</div>
                         <div>Company Profile</div>
-                    </div>                    
+                    </div>
 
                     <div className='companyProfile'>
 
                         <div className='proj_halfImg'>
-                            <img src={p1} />
+                            <img src={imagery1} />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={p2} />
-                        </div>
-                        <div className='proj_halfImg'>
-                            <img src={p3} />
-                        </div>
-                        <div className='proj_halfImg'>
-                            <img src={p4} />
-                        </div>
-                        <div className='proj_halfImg'>
-                            <img src={p5} />
-                        </div>
-                        <div className='proj_halfImg'>
-                            <img src={p6} />
+                            <img src={imagery2} />
                         </div>
 
                     </div>
@@ -110,40 +91,33 @@ const Covendx = () => {
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>2</div>
                         <div>Logo Design</div>
-                    </div>         
+                    </div>
 
                     <div className='companyLogos'>
                         <div className='proj_halfImg'>
-                            <img src={logo1} alt="" />
+                            <img src={logo1} />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={pallette} alt="" />
+                            <img src={pallette} />
                         </div>
                         <div className='proj_fullImg'>
-                            <img src={logo2} alt="" />
+                            <img src={logocolors} />
                         </div>
-                        <div className='proj_halfImg'>
-                            <img src={logosecond} alt="" />
-                        </div>
-                        <div className='proj_halfImg'>
-                            <img src={logoyellow} alt="" />
-                        </div>
-                    </div>           
+                    </div>
 
                 </div>
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>3</div>
-                        <div>Info Graphics Design</div>
-                    </div>   
+                        <div>Typography</div>
+                    </div>
 
                     <div className='companyInfoGr'>
                         <div className='proj_fullImg'>
-                            <img src={infographic} alt="" />
+                            <img src={typo} />
                         </div>
-                        
-                    </div>                  
+                    </div>
 
                 </div>
 
@@ -151,15 +125,17 @@ const Covendx = () => {
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>4</div>
                         <div>Website UI Design</div>
-                    </div>             
+                    </div>
 
                     <div className='companyUI'>
-
                         <div className='proj_halfImg'>
                             <img src={ui1} />
                         </div>
-                        <div className='proj_halfImg'>
+                        {/* <div className='proj_halfImg'>
                             <img src={ui2} />
+                        </div> */}
+                        <div className='proj_halfImg'>
+                            <img src={ui5} />
                         </div>
                         <div className='proj_halfImg'>
                             <img src={ui3} />
@@ -167,7 +143,6 @@ const Covendx = () => {
                         <div className='proj_halfImg'>
                             <img src={ui4} />
                         </div>
-
                     </div>
 
                 </div>
@@ -176,11 +151,11 @@ const Covendx = () => {
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>5</div>
                         <div>Website Developement</div>
-                    </div>   
+                    </div>
 
                     <div className='proj_text'>
-                        Ongoing...    
-                    </div>                 
+                        Ongoing...
+                    </div>
 
                 </div>
             </div>
@@ -188,4 +163,4 @@ const Covendx = () => {
     )
 }
 
-export default Covendx
+export default Moheera

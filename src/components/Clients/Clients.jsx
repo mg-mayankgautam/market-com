@@ -53,19 +53,93 @@ const Clients = () => {
         className="mySwiper"
       >
 
-        {projects.map((project, index) => (
-          <SwiperSlide key={index}>
-            <Link to={project.link} >
-              <div className='projectCard'>
-                <img src={project.imgSrc} alt="" style={project.style} />
-                <div className='projName'>
-                  {project.name}
-                </div>
+        <SwiperSlide>
+          <Link to='/project/covendx'>
+            <div className='projectCard'>
+              <img src={covendx} alt="" />
+              <div className='projName'>
+                Covendx
               </div>
-            </Link>
-          </SwiperSlide>
-        ))
-        }
+            </div>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link to='/project/moheera'>
+            <div className='projectCard'>
+              <img src={moheera} alt="" />
+              <div className='projName'>
+                Moheera Jewels
+              </div>
+            </div>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link to='/project/bhurjielectronics'>
+            <div className='projectCard'>
+              <img src={bhurji} alt="" />
+              <div className='projName'>
+                Bhurji Electronics
+              </div>
+            </div>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link>
+            <div className='projectCard'>
+              <img src={businesscard} alt="" style={{objectPosition:'center right'}}/>
+              <div className='projName'>
+                Business Card UI
+              </div>
+            </div>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link to='https://www.thefuelmedia.co/' target='_blank'>
+            <div className='projectCard'>
+              <img src={fuelmedia} alt="" />
+              <div className='projName'>
+                The Fuel Media
+              </div>
+            </div>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link to='/project/aadmiwala'>
+            <div className='projectCard'>
+              <img src={aadmiwala} alt="" />
+              <div className='projName'>
+                Aadmiwala
+              </div>
+            </div>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link to='/project/homeproject'>
+            <div className='projectCard'>
+              <img src={homeproj} alt="" />
+              <div className='projName'>
+                Home Project
+              </div>
+            </div>
+          </Link>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Link to='https://ruralhandmade.com/' target='_blank'>
+            <div className='projectCard'>
+              <img src={ruralhand} alt="" />
+              <div className='projName'>
+                Rural Handmade
+              </div>
+            </div>
+          </Link>
+        </SwiperSlide>
 
       </Swiper>
 
@@ -76,61 +150,61 @@ const Clients = () => {
 export default Clients
 
 
-const projects = [
-  {
-    id: 1,
-    link: '/project/covendx',
-    imgSrc: covendx,
-    name: 'Covendx',
-    style: {}
-  },
-  {
-    id: 2,
-    link: '/project/moheera',
-    imgSrc: moheera,
-    name: 'Moheera Jewels',
-    style: {}
-  },
-  {
-    id: 3,
-    link: '/project/bhurjielectronics',
-    imgSrc: bhurji,
-    name: 'Bhurji Electronics',
-    style: {}
-  },
-  {
-    id: 4,
-    link: '',
-    imgSrc: businesscard,
-    name: 'Business Card UI',
-    style: { objectPosition: 'center right' }
-  },
-  {
-    id: 5,
-    link: 'https://www.thefuelmedia.co/',
-    imgSrc: fuelmedia,
-    name: 'The Fuel Media',
-    style: {}
-  },
-  {
-    id: 6,
-    link: 'https://aadmiwala.vercel.app/',
-    imgSrc: aadmiwala,
-    name: 'Aadmiwala',
-    style: {}
-  },
-  {
-    id: 7,
-    link: '',
-    imgSrc: homeproj,
-    name: 'Home Project',
-    style: {}
-  },
-  {
-    id: 8,
-    link: 'https://ruralhandmade.com/',
-    imgSrc: ruralhand,
-    name: 'Rural Handmade',
-    style: {}
-  }
-];
+// const projects = [
+//   {
+//     id: 1,
+//     link: '',
+//     imgSrc: covendx,
+//     name: 'Covendx',
+//     style: {}
+//   },
+//   {
+//     id: 2,
+//     link: '',
+//     imgSrc: moheera,
+//     name: 'Moheera Jewels',
+//     style: {}
+//   },
+//   {
+//     id: 3,
+//     link: '',
+//     imgSrc: bhurji,
+//     name: 'Bhurji Electronics',
+//     style: {}
+//   },
+//   {
+//     id: 4,
+//     link: '',
+//     imgSrc: businesscard,
+//     name: 'Business Card UI',
+//     style: { objectPosition: 'center right' }
+//   },
+//   {
+//     id: 5,
+//     link: 'https://www.thefuelmedia.co/',
+//     imgSrc: fuelmedia,
+//     name: 'The Fuel Media',
+//     style: {}
+//   },
+//   {
+//     id: 6,
+//     link: '',
+//     imgSrc: aadmiwala,
+//     name: 'Aadmiwala',
+//     style: {}
+//   },
+//   {
+//     id: 7,
+//     link: '',
+//     imgSrc: homeproj,
+//     name: 'Home Project',
+//     style: {}
+//   },
+//   {
+//     id: 8,
+//     link: '',
+//     imgSrc: ruralhand,
+//     name: 'Rural Handmade',
+//     style: {}
+//   }
+// ];

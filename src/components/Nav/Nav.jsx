@@ -9,12 +9,14 @@ const Nav = ({ about_ref, contact_ref }) => {
   return (
     <div className='Nav'>
       <div>
-        <img src={logo} className='logo' />
+        <Link to={'/'} >
+          <img src={logo} className='logo' />
+        </Link>
       </div>
 
       <div className='navItems'>
       <Link to={'/'} >
-      <div ><button className='nav_btn'>Home</button></div>
+        <div ><button className='nav_btn'>Home</button></div>
       </Link>
        
 
