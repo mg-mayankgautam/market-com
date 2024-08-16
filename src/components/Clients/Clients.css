@@ -58,8 +58,19 @@
 }
 
 .swiper-button-prev::after, .swiper-button-next::after{
-    font-size: 28px !important;
-    color: antiquewhite;
+    font-size: 14px !important;
+    font-weight: 600;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    height: 26px;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px 0px #00000086;
+    border: 0.75px solid #00e1ff1a;
+
 }
 
 @media only screen and (max-width:800px){
