@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation, Mousewheel, Autoplay } from 'swiper/modules';
-import covendx from '../../assets/covendx.png'
+import covendx from '../../assets/covendx.jpeg'
 import moheera from '../../assets/moheera.png'
 import bhurji from '../../assets/bhurji.png'
 import homeproj from '../../assets/homeproj.png'

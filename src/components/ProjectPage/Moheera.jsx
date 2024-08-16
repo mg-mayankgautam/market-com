@@ -11,6 +11,12 @@ import ui1 from '../../assets/moheera/ui1.png'
 import ui3 from '../../assets/moheera/ui3.png'
 import ui4 from '../../assets/moheera/ui4.png'
 import ui5 from '../../assets/moheera/ui5.png'
+import lookbook from '../../assets/moheera/lookbook.png'
+import lookbook0 from '../../assets/moheera/lookbook0.png'
+import lookbook1 from '../../assets/moheera/lookbook1.png'
+import lookbook2 from '../../assets/moheera/lookbook2.png'
+import lookbook3 from '../../assets/moheera/lookbook3.png'
+import lookbook4 from '../../assets/moheera/lookbook4.png'
 
 const Moheera = () => {
 
@@ -30,15 +36,15 @@ const Moheera = () => {
                     <div className='proj_Head'>
                         Services
                     </div>
-                    <div className='proj_Services'>
-                        <div className='proj_service'>Branding</div>
-                        <div className='proj_service'>UI/UX</div>
-                        <div className='proj_service'>Company Profile</div>
-                        <div className='proj_service'>Logo Design</div>
-                        <div className='proj_service'>Website Development</div>
-                        <div className='proj_service'>Business Assessment</div>
-                        <div className='proj_service'>Brand Counselling</div>
-                    </div>
+                    <ul className='proj_Services'>
+                        <li className='proj_service'>Branding</li>
+                        <li className='proj_service'>UI/UX</li>
+                        <li className='proj_service'>Company Profile</li>
+                        <li className='proj_service'>Logo Design</li>
+                        <li className='proj_service'>Website Development</li>
+                        <li className='proj_service'>Business Assessment</li>
+                        <li className='proj_service'>Brand Counselling</li>
+                    </ul>
 
                 </div>
 
@@ -47,7 +53,7 @@ const Moheera = () => {
                         About The Brand
                     </div>
                     <div className='proj_text'>
-                        Moheera is a jewellery brand specializing in lab-grown diamonds. It offers customers meticulously crafted jewellery, designed with attention to detail. Moheera emphasizes versatile designs, ranging from statement pieces to jewellery suitable for everyday wear.
+                        Moheera is a jewellery brand specializing in lab-grown diamonds. It offers its customers meticulously crafted jewellery, designed with attention to detail. Moheera emphasizes versatile designs, ranging from statement pieces to jewellery suitable for everyday wear.
                     </div>
 
                 </div>
@@ -72,7 +78,7 @@ const Moheera = () => {
 
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>1</div>
-                        <div>Company Profile</div>
+                        <div>Product Photography</div>
                     </div>
 
                     <div className='companyProfile'>
@@ -85,6 +91,35 @@ const Moheera = () => {
                         </div>
 
                     </div>
+                </div>
+
+                <div className='proj_Section'>
+                    <div className='proj_SubHead'>
+                        <div className='proj_numHead'>2</div>
+                        <div>Catalogue Design</div>
+                    </div>
+
+                    <div className='companyCatalogue'>
+                        <div className='proj_halfImg'>
+                            <img src={lookbook} loading='lazy'/>
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={lookbook0} loading='lazy'/>
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={lookbook1} loading='lazy'/>
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={lookbook2} loading='lazy'/>
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={lookbook3} loading='lazy'/>
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={lookbook4} loading='lazy'/>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div className='proj_Section'>
@@ -153,8 +188,8 @@ const Moheera = () => {
                         <div>Website Developement</div>
                     </div>
 
-                    <div className='proj_text'>
-                        Ongoing...
+                    <div className='proj_text ongoing' style={{ color:'#7c2447'}}>
+                        Under Progress
                     </div>
 
                 </div>

@@ -20,15 +20,15 @@ const Aadmiwala = () => {
                     <div className='proj_Head'>
                         Services
                     </div>
-                    <div className='proj_Services'>
-                        <div className='proj_service'>Branding</div>
-                        <div className='proj_service'>UI/UX</div>
-                        <div className='proj_service'>Company Profile</div>
-                        <div className='proj_service'>Logo Design</div>
-                        <div className='proj_service'>Website Development</div>
-                        <div className='proj_service'>Business Assessment</div>
-                        <div className='proj_service'>Brand Counselling</div>
-                    </div>
+                    <ul className='proj_Services'>
+                        <li className='proj_service'>Branding</li>
+                        <li className='proj_service'>UI/UX</li>
+                        <li className='proj_service'>Company Profile</li>
+                        <li className='proj_service'>Logo Design</li>
+                        <li className='proj_service'>Website Development</li>
+                        <li className='proj_service'>Business Assessment</li>
+                        <li className='proj_service'>Brand Counselling</li>
+                    </ul>
 
                 </div>
 
@@ -116,8 +116,8 @@ const Aadmiwala = () => {
                         <div>Website Developement</div>
                     </div>
 
-                    <div className='proj_text'>
-                        Ongoing...
+                    <div className='proj_text ongoing' style={{ color:'#bf3430'}}>
+                        Under Progress
                     </div>
 
                 </div>

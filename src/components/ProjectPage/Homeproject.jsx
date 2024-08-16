@@ -1,5 +1,12 @@
 import React, { useEffect } from 'react'
 import './ProjectPage.css'
+import logo from '../../assets/homeproj/logo.png'
+import logocolors from '../../assets/homeproj/logocolors.png'
+import pallette from '../../assets/homeproj/pallette.png'
+import graphic1 from '../../assets/homeproj/graphic1.png'
+import graphic2 from '../../assets/homeproj/graphic2.png'
+import letterhead from '../../assets/homeproj/letterhead.png'
+
 
 const Homeproject = () => {
   
@@ -19,15 +26,15 @@ const Homeproject = () => {
                     <div className='proj_Head'>
                         Services
                     </div>
-                    <div className='proj_Services'>
-                        <div className='proj_service'>Branding</div>
-                        <div className='proj_service'>UI/UX</div>
-                        <div className='proj_service'>Company Profile</div>
-                        <div className='proj_service'>Logo Design</div>
-                        <div className='proj_service'>Website Development</div>
-                        <div className='proj_service'>Business Assessment</div>
-                        <div className='proj_service'>Brand Counselling</div>
-                    </div>
+                    <ul className='proj_Services'>
+                        <li className='proj_service'>Branding</li>
+                        <li className='proj_service'>UI/UX</li>
+                        <li className='proj_service'>Company Profile</li>
+                        <li className='proj_service'>Logo Design</li>
+                        <li className='proj_service'>Website Development</li>
+                        <li className='proj_service'>Business Assessment</li>
+                        <li className='proj_service'>Brand Counselling</li>
+                    </ul>
 
                 </div>
 
@@ -80,7 +87,15 @@ const Homeproject = () => {
                     </div>
 
                     <div className='companyLogos'>
-
+                        <div className='proj_fullImg'>
+                            <img src={logo} loading='lazy'/>
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={pallette} loading='lazy'/>
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={logocolors} loading='lazy'/>
+                        </div>
                     </div>
 
                 </div>
@@ -88,11 +103,30 @@ const Homeproject = () => {
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>3</div>
-                        <div>Info Graphics Design</div>
+                        <div>Graphic Design</div>
+                    </div>
+
+                    <div className='companyLogos'>
+                        <div className='proj_halfImg'>
+                            <img src={graphic1} loading='lazy'/>
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={graphic2} loading='lazy'/>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className='proj_Section'>
+                    <div className='proj_SubHead'>
+                        <div className='proj_numHead'>3</div>
+                        <div>Letterhead Design</div>
                     </div>
 
                     <div className='companyInfoGr'>
-
+                        <div className='proj_fullImg' style={{width:'70%'}}>
+                            <img src={letterhead} loading='lazy'/>
+                        </div>
                     </div>
 
                 </div>
@@ -115,8 +149,8 @@ const Homeproject = () => {
                         <div>Website Developement</div>
                     </div>
 
-                    <div className='proj_text'>
-                        Ongoing...
+                    <div className='proj_text ongoing' style={{ color:'#bf3430'}}>
+                        Under Progress
                     </div>
 
                 </div>

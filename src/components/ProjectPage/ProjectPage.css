@@ -42,7 +42,7 @@
 }
 
 .proj_halfImg{
-    width: calc(46% - 32px);
+    width: calc(40.2%);
     /* height: 100%; */
     display: flex;
     justify-content: center;
@@ -58,7 +58,7 @@
 }
 
 .proj_fullImg{
-    width: 90%;
+    width: 85%;
     display: flex;
     justify-content: center;
     background-color: antiquewhite;
@@ -77,12 +77,16 @@
     margin-bottom: 20px;
 }
 
-.companyProfile, .companyLogos, .companyUI{
+.companyProfile, .companyLogos, .companyUI, .companyCatalogue{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row !important;
     gap: 16px;
     justify-content: center;
+}
+
+.companyCatalogue>div{
+    width: 25.5%;
 }
 
 .companyInfoGr{
@@ -108,4 +112,12 @@
     font-size: 64px;
     font-weight: 700;
     line-height: 48px;
+}
+
+.proj_text.ongoing{
+    font-size: 16px;
+    font-weight: 800;
+    font-style: italic;
+    padding-left: 48px;
+    /* color: white; */
 }
