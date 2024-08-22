@@ -124,7 +124,7 @@ const Bhurji = () => {
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>3</div>
-                        <div>Social Media Posts</div>
+                        <div>Social Media Post Design</div>
                     </div>
 
                     <div className='companyProfile'>
@@ -173,7 +173,7 @@ const Bhurji = () => {
                         <div>Website Developement</div>
                     </div>
 
-                    <div className='proj_text ongoing' style={{ color:'#bf3430'}}>
+                    <div className='proj_text ongoing' style={{ color:'#0265b2'}}>
                         Under Progress
                     </div>
 
