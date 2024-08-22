@@ -1,9 +1,16 @@
 import React, { useEffect } from 'react'
+import infographic1 from '../../assets/aadmiwala/infographic1.png'
+import infographic2 from '../../assets/aadmiwala/infographic2.png'
+import logo from '../../assets/aadmiwala/logo.png'
+import ui1 from '../../assets/aadmiwala/ui1.png'
+import ui2 from '../../assets/aadmiwala/ui2.png'
+import ui3 from '../../assets/aadmiwala/ui3.png'
+import ui4 from '../../assets/aadmiwala/ui4.png'
 import './ProjectPage.css'
 
 
 const Aadmiwala = () => {
-  
+
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -67,10 +74,6 @@ const Aadmiwala = () => {
 
                     <div className='companyProfile'>
 
-                        {/* <div className='proj_halfImg'>
-                            <img src={p1} />
-                        </div> */}
-
                     </div>
                 </div>
 
@@ -80,8 +83,10 @@ const Aadmiwala = () => {
                         <div>Logo Design</div>
                     </div>
 
-                    <div className='companyLogos'>
-
+                    <div className='companyInfoGr'>
+                        <div className='proj_fullImg'>
+                            <img src={logo} loading='lazy' />
+                        </div>
                     </div>
 
                 </div>
@@ -92,8 +97,13 @@ const Aadmiwala = () => {
                         <div>Info Graphics Design</div>
                     </div>
 
-                    <div className='companyInfoGr'>
-
+                    <div className='companyProfile'>
+                        <div className='proj_halfImg'>
+                            <img src={infographic1} loading='lazy' />
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={infographic2} loading='lazy' />
+                        </div>
                     </div>
 
                 </div>
@@ -105,7 +115,18 @@ const Aadmiwala = () => {
                     </div>
 
                     <div className='companyUI'>
-
+                        <div className='proj_halfImg'>
+                            <img src={ui1} loading='lazy' />
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={ui2} loading='lazy' />
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={ui3} loading='lazy' />
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={ui4} loading='lazy' />
+                        </div>
                     </div>
 
                 </div>
@@ -116,7 +137,7 @@ const Aadmiwala = () => {
                         <div>Website Developement</div>
                     </div>
 
-                    <div className='proj_text ongoing' style={{ color:'#bf3430'}}>
+                    <div className='proj_text ongoing' style={{ color: '#bf3430' }}>
                         Under Progress
                     </div>
 

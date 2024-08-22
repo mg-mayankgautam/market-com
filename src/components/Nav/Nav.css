@@ -17,6 +17,12 @@
     font-weight: 500;
 }
 
+.navlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo{
     height: 36px;
 }

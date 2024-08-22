@@ -9,7 +9,7 @@ const Nav = ({ about_ref, contact_ref }) => {
   return (
     <div className='Nav'>
       <div>
-        <Link to={'/'} >
+        <Link to={'/'} className='navlogo'>
           <img src={logo} className='logo' />
         </Link>
       </div>
