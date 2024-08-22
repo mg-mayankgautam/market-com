@@ -7,6 +7,7 @@ import cm from '../../assets/corporatemarketing.png'
 import pdesign from '../../assets/packagedesign.png'
 import appdev from '../../assets/appdev.avif'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const Services = () => {
 
@@ -130,7 +131,8 @@ const Services = () => {
                     Social Media Marketing
                 </div>
                 <button className='serviceBtn'>
-                    Read More
+                    <Link to="/service/socialmedia">Read More</Link>
+                    
                 </button>
             </div>
           </div> 

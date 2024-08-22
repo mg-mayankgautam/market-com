@@ -8,6 +8,7 @@ import Bhurji from './components/ProjectPage/Bhurji';
 import Moheera from './components/ProjectPage/Moheera';
 import Aadmiwala from './components/ProjectPage/Aadmiwala';
 import Homeproject from './components/ProjectPage/Homeproject';
+import SocialMedia from './components/servicePage/SocialMedia';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="project/aadmiwala" element={<Aadmiwala/>}/>
         <Route path="project/homeproject" element={<Homeproject/>}/>
 
+        <Route path="service/socialmedia" element={<SocialMedia/>}/>
       </Route>
 
     </Routes>
