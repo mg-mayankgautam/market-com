@@ -28,7 +28,7 @@ const SocialMedia = () => {
                 </div>
 
                 <div className='proj_Section'>
-                    <div className='proj_Head'>
+                    <div className='proj_LargeHead'>
                         Social media
                     </div>
 
@@ -61,22 +61,23 @@ const SocialMedia = () => {
 
                 <div className='proj_Section'>
                     <div className='proj_MainHead'>
-                        So heres what we do
+                        So here's what we do
 
 
                     </div>
 
-                    <div className='proj_SubHead'>
-                        <div className='proj_numHead'>1</div>
-                        <div>Set clear goals.
-                            <br />
-                            Understand your audience. <br />
-                            Establish key performance indicators (KPIs). <br />
-                            Analyze your competition. <br />
-                            Create high-quality content. <br />
-                            Prioritize timely posting. <br />
-                            Measure and optimize. <br />
-                            Foster team collaboration.</div>
+                    <div className='proj_text'>
+                        {/* <div className='proj_numHead'>1</div> */}
+                        <ul>
+                            <li>Set clear goals.</li>
+                            <li>Understand your audience.</li>
+                            <li>Establish key performance indicators (KPIs).</li>
+                            <li>Analyze your competition.</li>
+                            <li>Create high-quality content.</li>
+                            <li>Prioritize timely posting.</li>
+                            <li>Measure and optimize.</li>
+                            <li>Foster team collaboration.</li>
+                        </ul>
                     </div>
 
 

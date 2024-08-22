@@ -122,3 +122,10 @@
 .proj_headerImg>img{
     max-width: 100%;
 }
+
+.proj_LargeHead{
+    font-size: 48px;
+    font-weight: 800;
+    /* color: white;
+    text-shadow: 0px 0px 4px #000000; */
+}
