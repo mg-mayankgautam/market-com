@@ -185,7 +185,7 @@ const Moheera = () => {
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>6</div>
-                        <div>Website Developement</div>
+                        <div>Website Development</div>
                     </div>
 
                     <div className='proj_text ongoing' style={{ color:'#7c2447'}}>

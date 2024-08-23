@@ -170,7 +170,7 @@ const Bhurji = () => {
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>5</div>
-                        <div>Website Developement</div>
+                        <div>Website Development</div>
                     </div>
 
                     <div className='proj_text ongoing' style={{ color:'#0265b2'}}>
