@@ -1,11 +1,24 @@
 import React, { useEffect } from 'react'
 import './socialmedia.css'
-import s5 from '../../assets/socialmedia/s5.png'
-import s6 from '../../assets/socialmedia/s6.png'
-import s2 from '../../assets/socialmedia/s2.png'
-import s3 from '../../assets/socialmedia/s3.png'
-import s4 from '../../assets/socialmedia/s4.png'
-import s1 from '../../assets/socialmedia/s1.png'
+import s1 from '../../assets/aadmiwala/ui1.png'
+import s2 from '../../assets/aadmiwala/ui2.png'
+import s3 from '../../assets/aadmiwala/ui3.png'
+import s4 from '../../assets/aadmiwala/ui4.png'
+import s5 from '../../assets/moheera/ui1.png'
+import s6 from '../../assets/moheera/ui3.png'
+import s7 from '../../assets/moheera/ui4.png'
+import s8 from '../../assets/moheera/ui5.png'
+import s9 from '../../assets/covendx/ui1.jpg'
+import s10 from '../../assets/covendx/ui2.jpg'
+import s11 from '../../assets/covendx/ui3.jpg'
+import s12 from '../../assets/covendx/ui4.jpg'
+import ui1 from '../../assets/bhurji/ui1.png'
+import ui2 from '../../assets/bhurji/ui2.png'
+import ui3 from '../../assets/bhurji/ui3.png'
+import ui4 from '../../assets/bhurji/ui4.png'
+import ui5 from '../../assets/bhurji/ui5.png'
+import ui6 from '../../assets/bhurji/ui6.png'
+
 import webdev from '../../assets/websiteDev/webdev.jpg'
 
 
@@ -18,28 +31,28 @@ const Webdev = () => {
 
     return (
         <>
-            <div className='dummyNav'>
+            {/* <div className='dummyNav'>
 
+            </div> */}
+            <div className='proj_headerImg'>
+                <img src={webdev} loading='lazy' />
             </div>
-            <div className='ProjectPage'>
 
-                <div className='proj_headerImg'>
-                    <img src={webdev} loading='lazy' />
-                </div>
+            <div className='ServicePage'>
 
                 <div className='proj_Section'>
                     <div className='proj_LargeHead'>
-                        Website Developemnt
+                        Website Development
                     </div>
 
                 </div>
 
                 <div className='proj_Section'>
                     <div className='proj_Head'>
-                    Let Techtonic Media help you build a website that makes a lasting impression and propels your business forward.
+                        Let Techtonic Media help you build a website that makes a lasting impression and propels your business forward.
                     </div>
                     <div className='proj_text'>
-                    Your website is the cornerstone of your online success, serving as the digital hub that attracts and engages customers. To effectively represent your brand and offerings, your website should be clear, compelling, and user-friendly.
+                        Your website is the cornerstone of your online success, serving as the digital hub that attracts and engages customers. To effectively represent your brand and offerings, your website should be clear, compelling, and user-friendly.
                     </div>
 
                 </div>
@@ -54,14 +67,14 @@ const Webdev = () => {
 
                     </div>
                     <div className='proj_text'>
-                    At Techtonic Media, we specialize in crafting exceptional websites that not only showcase your brand identity but also drive meaningful customer interactions and conversions. Our team of skilled designers and developers excels in creating visually stunning, intuitive, and responsive websites that deliver a seamless experience across all devices.
+                        At Techtonic Media, we specialize in crafting exceptional websites that not only showcase your brand identity but also drive meaningful customer interactions and conversions. Our team of skilled designers and developers excels in creating visually stunning, intuitive, and responsive websites that deliver a seamless experience across all devices.
                     </div>
 
                 </div>
 
                 <div className='proj_Section'>
                     <div className='proj_MainHead'>
-                      Types of Websites we make
+                        Types of Websites we make
 
 
                     </div>
@@ -92,7 +105,10 @@ const Webdev = () => {
 
                     </div>
                     <div className='companyProfile'>
-                        
+
+                        <div className='proj_halfImg'>
+                            <img src={s1} loading='lazy' />
+                        </div>
                         <div className='proj_halfImg'>
                             <img src={s2} loading='lazy' />
                         </div>
@@ -103,15 +119,50 @@ const Webdev = () => {
                             <img src={s4} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={s1} loading='lazy' />
+                            <img src={s5} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
                             <img src={s6} loading='lazy' />
                         </div>
+
                         <div className='proj_halfImg'>
-                            <img src={s5} loading='lazy' />
+                            <img src={s7} loading='lazy' />
                         </div>
-                        
+                        <div className='proj_halfImg'>
+                            <img src={s8} loading='lazy' />
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={s9} loading='lazy' />
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={s10} loading='lazy' />
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={s11} loading='lazy' />
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={s12} loading='lazy' />
+                        </div>
+
+                        <div className='proj_halfImg'>
+                            <img src={ui1} loading='lazy'/>
+                        </div>
+                        {/* <div className='proj_halfImg'>
+                            <img src={ui2} loading='lazy'/>
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={ui3} loading='lazy'/>
+                        </div> */}
+                        <div className='proj_halfImg'>
+                            <img src={ui4} loading='lazy'/>
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={ui5} loading='lazy'/>
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={ui6} loading='lazy'/>
+                        </div>
+
                     </div>
 
 
