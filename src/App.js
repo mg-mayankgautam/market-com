@@ -9,6 +9,7 @@ import Moheera from './components/ProjectPage/Moheera';
 import Aadmiwala from './components/ProjectPage/Aadmiwala';
 import Homeproject from './components/ProjectPage/Homeproject';
 import SocialMedia from './components/servicePage/SocialMedia';
+import Webdev from './components/servicePage/Webdev';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="project/homeproject" element={<Homeproject/>}/>
 
         <Route path="service/socialmedia" element={<SocialMedia/>}/>
+        <Route path="service/websitedevelopement" element={<Webdev/>}/>
       </Route>
 
     </Routes>
