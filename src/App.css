@@ -40,8 +40,13 @@ a{
 }
 
 .dummyNav{
-  height: 64px;
   background-color: black;
-  margin: 16px 24px;
   border-radius: 45px;
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  height: 64px;
+  right: 24px;
+  z-index: 4;
+  box-shadow: 5px 5px 10px #ffffff15;
 }

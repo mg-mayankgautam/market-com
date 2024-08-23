@@ -18,14 +18,15 @@ const SocialMedia = () => {
 
     return (
         <>
-            <div className='dummyNav'>
+            {/* <div className='dummyNav'>
 
+            </div> */}
+
+            <div className='proj_headerImg'>
+                <img src={socialmediaimage} loading='lazy' />
             </div>
-            <div className='ProjectPage'>
 
-                <div className='proj_headerImg'>
-                    <img src={socialmediaimage} loading='lazy' />
-                </div>
+            <div className='ServicePage'>
 
                 <div className='proj_Section'>
                     <div className='proj_LargeHead'>
@@ -92,7 +93,7 @@ const SocialMedia = () => {
 
                     </div>
                     <div className='companyProfile'>
-                        
+
                         <div className='proj_halfImg'>
                             <img src={s2} loading='lazy' />
                         </div>
@@ -111,7 +112,7 @@ const SocialMedia = () => {
                         <div className='proj_halfImg'>
                             <img src={s5} loading='lazy' />
                         </div>
-                        
+
                     </div>
 
 

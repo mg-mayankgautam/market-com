@@ -1,6 +1,6 @@
 .ProjectPage{
     min-height: 100vh;
-    padding: 64px 64px;
+    padding: 128px 64px 64px;
     display: flex;
     flex-direction: column;
     align-items: center;

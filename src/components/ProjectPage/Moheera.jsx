@@ -124,7 +124,7 @@ const Moheera = () => {
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
-                        <div className='proj_numHead'>2</div>
+                        <div className='proj_numHead'>3</div>
                         <div>Logo Design</div>
                     </div>
 
@@ -144,7 +144,7 @@ const Moheera = () => {
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
-                        <div className='proj_numHead'>3</div>
+                        <div className='proj_numHead'>4</div>
                         <div>Typography</div>
                     </div>
 
@@ -158,7 +158,7 @@ const Moheera = () => {
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
-                        <div className='proj_numHead'>4</div>
+                        <div className='proj_numHead'>5</div>
                         <div>Website UI Design</div>
                     </div>
 
@@ -184,7 +184,7 @@ const Moheera = () => {
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
-                        <div className='proj_numHead'>5</div>
+                        <div className='proj_numHead'>6</div>
                         <div>Website Developement</div>
                     </div>
 
