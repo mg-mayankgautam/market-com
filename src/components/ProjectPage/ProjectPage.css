@@ -74,7 +74,7 @@
     margin-bottom: 20px;
 }
 
-.companyProfile, .companyLogos, .companyUI, .companyCatalogue{
+.companyProfile, .companyLogos, .companyUI, .companyCatalogue, .companyMobile{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row !important;
@@ -117,4 +117,34 @@
     font-style: italic;
     padding-left: 48px;
     /* color: white; */
+}
+
+
+
+@media only screen and (orientation: portrait) {
+    .ProjectPage{
+        padding: 128px 24px 64px;
+    }
+    
+    .proj_Services{
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+    .proj_halfImg{
+        width: 85% !important;
+        padding: 8px !important;
+    }
+    
+    .proj_fullImg{
+        padding: 8px !important;
+    }
+    
+    .companyCatalogue>div{
+        width: 85% !important;
+    }
+
+    .companyInfoGr>div{
+        width: 85% !important;
+    }
+    
 }

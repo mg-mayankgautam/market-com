@@ -192,7 +192,7 @@ const Services = () => {
                     <div className='headings'>
                         <div className={first ? 'service_heading selected' : 'service_heading'} onClick={() => { toggle1() }}>DESIGN</div>
                         <div className={second ? 'service_heading selected' : 'service_heading'} onClick={() => { toggle2() }}>DIGITAL MARKETING</div>
-                        <div className={third ? 'service_heading selected' : 'service_heading'} onClick={() => { toggle3() }}>DEVELOPEMENT</div>
+                        <div className={third ? 'service_heading selected' : 'service_heading'} onClick={() => { toggle3() }}>DEVELOPMENT</div>
                         <div className={fourth ? 'service_heading selected' : 'service_heading'} onClick={() => { toggle4() }}>SEO</div>
                         <div className={fifth ? 'service_heading selected' : 'service_heading'} onClick={() => { toggle5() }}>CONTENT WRITING</div>
                     </div>
@@ -237,7 +237,7 @@ const Services = () => {
                             <div className='service'>CUSTOM WEBSITES</div>
                             <div className='service'>STATIC WEBSITES</div>
                             <div className='service'>PRODUCT WEBSITES</div>
-                            <div className='service'>SHOPIFY DEVELOPEMENT</div>
+                            <div className='service'>SHOPIFY DEVELOPMENT</div>
                             <div className='service'>WORDPRESS DEVELOPMENT</div>
                             <div className='service'>IOS DEVELOPMENT</div>
                             <div className='service'>ANDROID DEVELOPMENT</div>

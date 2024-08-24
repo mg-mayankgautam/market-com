@@ -50,3 +50,10 @@ a{
   z-index: 4;
   box-shadow: 5px 5px 10px #ffffff15;
 }
+
+@media only screen and (orientation: portrait) {
+  .dummyNav{
+    left: 16px;
+    right: 16px;
+  }
+}
