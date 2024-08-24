@@ -10,6 +10,7 @@ import Aadmiwala from './components/ProjectPage/Aadmiwala';
 import Homeproject from './components/ProjectPage/Homeproject';
 import SocialMedia from './components/servicePage/SocialMedia';
 import Webdev from './components/servicePage/Webdev';
+import ProductDesign from './components/servicePage/ProductDesign';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
 
         <Route path="service/socialmedia" element={<SocialMedia/>}/>
         <Route path="service/websitedevelopement" element={<Webdev/>}/>
+        <Route path="service/productdesign" element={<ProductDesign/>}/>
       </Route>
 
     </Routes>

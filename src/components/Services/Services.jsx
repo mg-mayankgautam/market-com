@@ -118,9 +118,11 @@ const Services = () => {
                         <div className='serviceName'>
                             Product Design
                         </div>
-                        <button className='serviceBtn'>
-                            Read More
-                        </button>
+                        <Link to="/service/productdesign">
+                            <button className='serviceBtn'>
+                                Read More
+                            </button>
+                        </Link>
                     </div>
                 </div>
 
