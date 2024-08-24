@@ -25,11 +25,11 @@ const Footer = () => {
                     <div className='footerHeading footerBold'>CONTACT US</div>
                     <div className='footerList'>
                         <a href="mailto:contact@techtonicmedia.in" target='_blank'>
-                            <div>Mail: contact@techtonicmedia.in</div>
+                            <div>contact@techtonicmedia.in</div>
                         </a>
 
                         <a href="tel:+919990699649">
-                            <div>Call: 9990699649</div>
+                            <div>+91 9990699649</div>
                         </a>
                         <a href="https://wa.me/919990699649" target='_blank'>
                             <div>Whatsapp</div>

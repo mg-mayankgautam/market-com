@@ -83,13 +83,13 @@ const Contact = ({ contact_ref }) => {
                         <a href="tel:+919990699649">
                             <div className='contactInfoIcons'>
                                 <img src={call} className='icon' />
-                                <div>9990699649</div>
+                                <div>+91 9990699649</div>
                             </div>
                         </a>
                         <a href="https://wa.me/919990699649" target='_blank'>
                             <div className='contactInfoIcons'>
                                 <img src={wsp} className='icon' />
-                                <div>9990699649</div>
+                                <div>+91 9990699649</div>
                             </div>
                         </a>
                     </div>
