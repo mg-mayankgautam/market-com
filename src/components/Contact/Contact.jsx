@@ -4,6 +4,7 @@ import location from '../../assets/locationlogo.png'
 import mail from '../../assets/maillogo.png'
 import emailjs from '@emailjs/browser';
 import call from '../../assets/calllogo.png'
+import wsp from '../../assets/wsplogo.png'
 
 
 const Contact = ({ contact_ref }) => {
@@ -28,7 +29,7 @@ const Contact = ({ contact_ref }) => {
                 });
                 alert("We have received your request");
             }
-            else{
+            else {
                 alert("kindly fill all fields first.");
             }
         }
@@ -85,7 +86,12 @@ const Contact = ({ contact_ref }) => {
                                 <div>9990699649</div>
                             </div>
                         </a>
-                        {/*<a href="https://wa.me/919100981008" target='_blank'> */}
+                        <a href="https://wa.me/919990699649" target='_blank'>
+                            <div className='contactInfoIcons'>
+                                <img src={wsp} className='icon' />
+                                <div>9990699649</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
