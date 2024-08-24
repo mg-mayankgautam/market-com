@@ -1,0 +1,59 @@
+.ServicePage{
+    min-height: 100vh;
+    padding: 0px 64px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    text-align: left;
+}
+
+/* ................................. service page */
+
+.proj_headerImg{
+    height: 400px;
+    background-color: black;
+}
+
+.proj_headerImg>img{
+    /* max-width: 100%; */
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.proj_LargeHead{
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: -72px;
+    z-index: 1;
+    color: white;
+    text-shadow: 0px 0px 4px #000000;
+}
+
+.companyMobile>div{
+    width: 20%;
+}
+
+
+
+@media only screen and (orientation: portrait) {
+    .ServicePage{
+        padding: 0px 24px 64px;
+    }
+
+    .proj_headerImg{
+        height: 300px;
+    }
+    
+    .proj_LargeHead{
+        font-size: 48px;
+        margin-top: -64px;
+    }
+    
+    .companyMobile>div{
+        width: 85%;
+    }
+    
+}

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './About.css'
 import photo from '../../assets/bg2.jpg'
+import { Link } from 'react-router-dom'
 
 const About = ({ about_ref, scrollvar }) => {
 
@@ -21,7 +22,7 @@ const About = ({ about_ref, scrollvar }) => {
             <div className='AboutMain'>
 
                 <div className='aboutImg'>
-                    <img src={photo} alt="" loading='lazy'/>
+                    <img src={photo} alt="" loading='lazy' />
                 </div>
 
                 <div className='aboutBox1'>
@@ -31,9 +32,11 @@ const About = ({ about_ref, scrollvar }) => {
                         At TechTonic, we're dedicated to helping businesses succeed with innovative digital marketing strategies. Our experienced team delivers tailored solutions to enhance your online presence and achieve your goals. We leverage the latest technologies to stay ahead of the curve and ensure exceptional service and measurable results.
                     </div>
 
-                    <button className='aboutBtn'>
-                        Learn More
-                    </button>
+                    <Link to='/aboutus'>
+                        <button className='aboutBtn'>
+                            Learn More
+                        </button>
+                    </Link>
                 </div>
 
                 <div className='aboutBox2'>

@@ -6,7 +6,7 @@ import emailjs from '@emailjs/browser';
 import call from '../../assets/calllogo.png'
 
 
-const Contact = ({contact_ref}) => {
+const Contact = ({ contact_ref }) => {
 
     useEffect(() => emailjs.init("tBVWuXxbt-lDrhJLU"), []);
 
@@ -14,19 +14,24 @@ const Contact = ({contact_ref}) => {
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
     const [msg, setMsg] = useState('')
-  
-    const sendEmail = async(e) => {
+
+    const sendEmail = async (e) => {
         console.log(name, email, phone, msg)
 
-        try{
-            await emailjs.send('service_nom56r7', 'template_7nv92cr', {
-                name: name,
-                email: email,
-                phone: phone,
-                msg: msg
-            });
-            alert("email successfully sent to admin");
-        } 
+        try {
+            if (name, email, phone, msg) {
+                await emailjs.send('service_nom56r7', 'template_7nv92cr', {
+                    name: name,
+                    email: email,
+                    phone: phone,
+                    msg: msg
+                });
+                alert("We have received your request");
+            }
+            else{
+                alert("kindly fill all fields first.");
+            }
+        }
         catch (error) {
             console.log(error);
         }
@@ -34,59 +39,59 @@ const Contact = ({contact_ref}) => {
     }
 
 
-  return (
+    return (
 
-    <div className='Contact' ref={contact_ref}>
-        
-        <div className='ContactMainBox'>
-            <div className='SendMsgBox'>
-                
-                <div className='sendMsgHead'>
-                    Reach out for a new project 
-                    <br />or just say hello
-                </div>
+        <div className='Contact' ref={contact_ref}>
 
-                <input className='contact_input' type="text" onChange={(e)=> setName(e.target.value)} placeholder='your name'/>
-                <input type="text" onChange={(e)=> setEmail(e.target.value)} placeholder='your email'/>
-                <input type="number" onChange={(e)=> setPhone(e.target.value)} placeholder='your phone'/>
-                <input type="text" onChange={(e)=> setMsg(e.target.value)} placeholder='enter your message'/>
+            <div className='ContactMainBox'>
+                <div className='SendMsgBox'>
 
-                <button className='contactBtn' onClick={sendEmail}>SEND</button>
-            </div> 
-        </div>
+                    <div className='sendMsgHead'>
+                        Reach out for a new project
+                        <br />or just say hello
+                    </div>
 
-        <div className='ContactSubBox'>
-            <div>
-                <div className='sendMsgHead'>
-                    Get In Touch
-                </div>
+                    <input className='contact_input' type="text" onChange={(e) => setName(e.target.value)} placeholder='your name' />
+                    <input type="text" onChange={(e) => setEmail(e.target.value)} placeholder='your email' />
+                    <input type="number" onChange={(e) => setPhone(e.target.value)} placeholder='your phone' />
+                    <input type="text" onChange={(e) => setMsg(e.target.value)} placeholder='enter your message' />
 
-                <div className='sendMsgContent'>
-                    <a><div className='contactInfoIcons'>
-                        <img src={location} className='icon' /> 
-                        <div>Signature Global Millennia 1, <br />Gurugram, Haryana</div>
-                    </div></a>
-
-                    <a href="mailto:contact@techtonicmedia.in" target='_blank'> 
-                        <div className='contactInfoIcons'>
-                            <img src={mail} className='icon'/> 
-                            <div>contact@techtonicmedia.in</div>
-                        </div>
-                    </a>
-
-                    <a href="tel:+919990699649">
-                        <div className='contactInfoIcons'>
-                            <img src={call} className='icon'/> 
-                            <div>9990699649</div>
-                        </div>
-                    </a>
-                    {/*<a href="https://wa.me/919100981008" target='_blank'> */}
+                    <button className='contactBtn' onClick={sendEmail}>SEND</button>
                 </div>
             </div>
-        </div>
 
-    </div>
-  )
+            <div className='ContactSubBox'>
+                <div>
+                    <div className='sendMsgHead'>
+                        Get In Touch
+                    </div>
+
+                    <div className='sendMsgContent'>
+                        <a><div className='contactInfoIcons'>
+                            <img src={location} className='icon' />
+                            <div>Signature Global Millennia 1, <br />Gurugram, Haryana</div>
+                        </div></a>
+
+                        <a href="mailto:contact@techtonicmedia.in" target='_blank'>
+                            <div className='contactInfoIcons'>
+                                <img src={mail} className='icon' />
+                                <div>contact@techtonicmedia.in</div>
+                            </div>
+                        </a>
+
+                        <a href="tel:+919990699649">
+                            <div className='contactInfoIcons'>
+                                <img src={call} className='icon' />
+                                <div>9990699649</div>
+                            </div>
+                        </a>
+                        {/*<a href="https://wa.me/919100981008" target='_blank'> */}
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    )
 }
 
 export default Contact

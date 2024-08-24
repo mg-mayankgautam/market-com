@@ -3,17 +3,18 @@ import Layout from './Layout';
 import './App.css';
 import HomePage from './pages/HomePage';
 import { useRef } from 'react';
-import Covendx from './components/ProjectPage/Covendx';
-import Bhurji from './components/ProjectPage/Bhurji';
-import Moheera from './components/ProjectPage/Moheera';
-import Aadmiwala from './components/ProjectPage/Aadmiwala';
-import Homeproject from './components/ProjectPage/Homeproject';
-import SocialMedia from './components/servicePage/SocialMedia';
-import Webdev from './components/servicePage/Webdev';
-import ProductDesign from './components/servicePage/ProductDesign';
-import Appdev from './components/servicePage/Appdev';
-import CorporateStrategy from './components/servicePage/CorporateStrategy';
-import Seo from './components/servicePage/Seo';
+import Covendx from './pages/ProjectPage/Covendx';
+import Bhurji from './pages/ProjectPage/Bhurji';
+import Moheera from './pages/ProjectPage/Moheera';
+import Aadmiwala from './pages/ProjectPage/Aadmiwala';
+import Homeproject from './pages/ProjectPage/Homeproject';
+import SocialMedia from './pages/servicePage/SocialMedia';
+import Webdev from './pages/servicePage/Webdev';
+import ProductDesign from './pages/servicePage/ProductDesign';
+import Appdev from './pages/servicePage/Appdev';
+import CorporateStrategy from './pages/servicePage/CorporateStrategy';
+import Seo from './pages/servicePage/Seo';
+import AboutPage from './pages/AboutPage/AboutPage';
 
 function App() {
 
@@ -27,6 +28,8 @@ function App() {
 
         <Route index element={<HomePage about_ref={about_ref} contact_ref={contact_ref} />} />
 
+        <Route path="aboutus" element={<AboutPage />} />
+        
         <Route path="project/covendx" element={<Covendx />} />
         <Route path="project/bhurjielectronics" element={<Bhurji/>}/>
         <Route path="project/moheera" element={<Moheera/>}/>
