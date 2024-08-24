@@ -74,7 +74,7 @@
     margin-bottom: 20px;
 }
 
-.companyProfile, .companyLogos, .companyUI, .companyCatalogue{
+.companyProfile, .companyLogos, .companyUI, .companyCatalogue, .companyMobile{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row !important;
@@ -141,4 +141,8 @@
     z-index: 1;
     color: white;
     text-shadow: 0px 0px 4px #000000;
+}
+
+.companyMobile>div{
+    width: 20%;
 }

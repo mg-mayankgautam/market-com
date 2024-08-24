@@ -6,6 +6,8 @@ import pallette from '../../assets/homeproj/pallette.png'
 import graphic1 from '../../assets/homeproj/graphic1.png'
 import graphic2 from '../../assets/homeproj/graphic2.png'
 import letterhead from '../../assets/homeproj/letterhead.png'
+import card1 from '../../assets/homeproj/card1.png'
+import card2 from '../../assets/homeproj/card2.png'
 
 
 const Homeproject = () => {
@@ -66,23 +68,23 @@ const Homeproject = () => {
                         Our Work
                     </div>
 
-                    <div className='proj_SubHead'>
+                    {/* <div className='proj_SubHead'>
                         <div className='proj_numHead'>1</div>
                         <div>Company Profile</div>
                     </div>
 
                     <div className='companyProfile'>
 
-                        {/* <div className='proj_halfImg'>
+                         <div className='proj_halfImg'>
                             <img src={p1} />
-                        </div> */}
+                        </div>
 
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
-                        <div className='proj_numHead'>2</div>
+                        <div className='proj_numHead'>1</div>
                         <div>Logo Design</div>
                     </div>
 
@@ -102,7 +104,7 @@ const Homeproject = () => {
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
-                        <div className='proj_numHead'>3</div>
+                        <div className='proj_numHead'>2</div>
                         <div>Graphic Design</div>
                     </div>
 
@@ -134,11 +136,16 @@ const Homeproject = () => {
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>4</div>
-                        <div>Website UI Design</div>
+                        <div>Business Card Design</div>
                     </div>
 
                     <div className='companyUI'>
-
+                        <div className='proj_halfImg'>
+                            <img src={card1} loading='lazy'/>
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={card2} loading='lazy'/>
+                        </div>
                     </div>
 
                 </div>

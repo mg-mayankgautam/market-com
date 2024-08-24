@@ -88,7 +88,7 @@ const Services = () => {
                         <div className='serviceName'>
                             Website Development
                         </div>
-                        <Link to="service/websitedevelopement">
+                        <Link to="service/websitedevelopment">
                             <button className='serviceBtn'>
                                 Read More
                             </button>
@@ -104,9 +104,11 @@ const Services = () => {
                         <div className='serviceName'>
                             App Development
                         </div>
-                        <button className='serviceBtn'>
-                            Read More
-                        </button>
+                        <Link to="service/appdevelopment">
+                            <button className='serviceBtn'>
+                                Read More
+                            </button>
+                        </Link>
                     </div>
                 </div>
 
@@ -150,9 +152,11 @@ const Services = () => {
                         <div className='serviceName'>
                             Corporate Strategy
                         </div>
-                        <button className='serviceBtn'>
-                            Read More
-                        </button>
+                        <Link to="service/corporatestrategy">
+                            <button className='serviceBtn'>
+                                Read More
+                            </button>
+                        </Link>
                     </div>
                 </div>
 
@@ -164,9 +168,11 @@ const Services = () => {
                         <div className='serviceName'>
                             Search Engine Optimization
                         </div>
-                        <button className='serviceBtn'>
-                            Read More
-                        </button>
+                        <Link to="service/seo">
+                            <button className='serviceBtn'>
+                                Read More
+                            </button>
+                        </Link>
                     </div>
                 </div>
 

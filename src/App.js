@@ -11,6 +11,9 @@ import Homeproject from './components/ProjectPage/Homeproject';
 import SocialMedia from './components/servicePage/SocialMedia';
 import Webdev from './components/servicePage/Webdev';
 import ProductDesign from './components/servicePage/ProductDesign';
+import Appdev from './components/servicePage/Appdev';
+import CorporateStrategy from './components/servicePage/CorporateStrategy';
+import Seo from './components/servicePage/Seo';
 
 function App() {
 
@@ -31,8 +34,11 @@ function App() {
         <Route path="project/homeproject" element={<Homeproject/>}/>
 
         <Route path="service/socialmedia" element={<SocialMedia/>}/>
-        <Route path="service/websitedevelopement" element={<Webdev/>}/>
+        <Route path="service/websitedevelopment" element={<Webdev/>}/>
         <Route path="service/productdesign" element={<ProductDesign/>}/>
+        <Route path="service/appdevelopment" element={<Appdev/>}/>
+        <Route path="service/corporatestrategy" element={<CorporateStrategy/>}/>
+        <Route path="service/seo" element={<Seo/>}/>
       </Route>
 
     </Routes>
