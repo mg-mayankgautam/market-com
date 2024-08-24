@@ -13,11 +13,13 @@ import s10 from '../../assets/covendx/ui2.jpg'
 import s11 from '../../assets/covendx/ui3.jpg'
 import s12 from '../../assets/covendx/ui4.jpg'
 import ui1 from '../../assets/bhurji/ui1.png'
-import ui2 from '../../assets/bhurji/ui2.png'
-import ui3 from '../../assets/bhurji/ui3.png'
 import ui4 from '../../assets/bhurji/ui4.png'
 import ui5 from '../../assets/bhurji/ui5.png'
 import ui6 from '../../assets/bhurji/ui6.png'
+import cms from '../../assets/websiteDev/cms.png'
+import cms1 from '../../assets/websiteDev/cms1.png'
+import cms2 from '../../assets/websiteDev/cm2.png'
+import cms3 from '../../assets/websiteDev/cms3.png'
 
 import webdev from '../../assets/websiteDev/webdev.jpg'
 
@@ -161,6 +163,31 @@ const Webdev = () => {
                         </div>
                         <div className='proj_halfImg'>
                             <img src={ui6} loading='lazy'/>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <div className='proj_Section'>
+                    <div className='proj_MainHead'>
+                        Content Management System
+                    </div>
+                    <div className='companyProfile'>
+
+                        <div className='proj_halfImg'>
+                            <img src={cms} loading='lazy' />
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={cms1} loading='lazy' />
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={cms2} loading='lazy' />
+                        </div>
+                        <div className='proj_halfImg'>
+                            <img src={cms3} loading='lazy' />
                         </div>
 
                     </div>
