@@ -66,9 +66,17 @@
     align-items: center;
 }
 .hoverbtn{
-    font-weight: 700;
+    font-weight: 600;
     padding: 8px 12px;
-    background-color: #00343b86;
+    background-color: antiquewhite;
+    color: black;
+    border: 1px solid antiquewhite;
+}
+.hoverbtn:hover{
+    font-weight: 600;
+    padding: 8px 12px;
+    background-color: black;
+    color: antiquewhite;
     border: 1px solid antiquewhite;
 }
 

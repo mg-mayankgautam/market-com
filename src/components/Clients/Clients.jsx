@@ -121,7 +121,7 @@ const Clients = () => {
           </Link>
         </SwiperSlide>
 
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <Link to='https://www.thefuelmedia.co/' target='_blank'>
             <div className='projectCard'>
               <img src={fuelmedia} alt="" loading='lazy' />
@@ -130,7 +130,7 @@ const Clients = () => {
               </div>
             </div>
           </Link>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         <SwiperSlide>
           <Link to='/project/aadmiwala'>
@@ -167,7 +167,7 @@ const Clients = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <Link to='https://ruralhandmade.com/' target='_blank'>
+          <Link>
             <div className='projectCard'>
               <img src={ruralhand} alt="" loading='lazy' />
               <div className='projName'>
