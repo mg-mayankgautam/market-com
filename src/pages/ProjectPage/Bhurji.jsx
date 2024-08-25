@@ -43,6 +43,7 @@ const Bhurji = () => {
                         <li className='proj_service'>Website Development</li>
                         <li className='proj_service'>Business Assessment</li>
                         <li className='proj_service'>Brand Counselling</li>
+                        <li classNamze='proj_service'>Social Media Post Design</li>
                     </ul>
 
                 </div>

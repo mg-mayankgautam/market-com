@@ -40,7 +40,8 @@ const Moheera = () => {
                     <ul className='proj_Services'>
                         <li className='proj_service'>Branding</li>
                         <li className='proj_service'>UI/UX</li>
-                        <li className='proj_service'>Company Profile</li>
+                        <li className='proj_service'>Product Photography</li>
+                        <li className='proj_service'>Catalogue Design</li>
                         <li className='proj_service'>Logo Design</li>
                         <li className='proj_service'>Website Development</li>
                         <li className='proj_service'>Business Assessment</li>

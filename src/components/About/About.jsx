@@ -43,12 +43,22 @@ const About = ({ about_ref, scrollvar }) => {
                     <div className='aboutHead'>
                         Why Choose Us?
                     </div>
-                    <div>
-                        Expertise: Years of industry experience and proven success.
-                        <br />Innovation: Cutting-edge strategies and tools.
-                        <br />Personalized Service: Tailored solutions for your unique needs.
-                        <br />Results-Driven: Focus on delivering measurable results.
-                        <br />Customer-Centric: Your success is our top priority.
+                    <div className='aboutChooseUstext'>
+                        <div>
+                            <strong>Expertise:</strong> Years of industry experience and proven success.
+                        </div>
+                        <div>
+                            <strong>Innovation:</strong> Cutting-edge strategies and tools.
+                        </div>
+                        <div>
+                            <strong>Personalized Service:</strong> Tailored solutions for your unique needs.
+                        </div>
+                        <div>
+                            <strong>Results-Driven:</strong> Focus on delivering measurable results.
+                        </div>
+                        <div>
+                            <strong>Customer-Centric:</strong> Your success is our top priority.
+                        </div>
                     </div>
                 </div>
             </div>
