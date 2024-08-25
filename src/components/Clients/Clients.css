@@ -53,6 +53,25 @@
     /* border-left: 0.25px solid rgba(255, 221, 176, 0.514);; */
 }
 
+.projecthover{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hoverbtn{
+    font-weight: 700;
+    padding: 8px 12px;
+    background-color: #00343b86;
+    border: 1px solid antiquewhite;
+}
+
 .swiper{
     display: flex !important;
 }
