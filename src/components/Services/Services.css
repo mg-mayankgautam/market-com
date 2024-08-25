@@ -150,4 +150,34 @@
     .serviceImgDiv{
         width: 100%;
     }
+
+    .more_service_container{
+        flex-direction: column;
+    }
+    
+    .headings{
+        min-width: 220px;
+    }
+    
+    .service_heading{
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    
+    .service_heading:hover, .service_heading.selected{
+        font-size: 15px;
+    }
+    
+    .content{
+        padding: 24px 16px;
+    }
+    
+    .content>div{
+        gap: 12px;
+    }
+    
+    .service{
+        padding: 8px 10px;
+        font-size: 12px;
+    }
 }

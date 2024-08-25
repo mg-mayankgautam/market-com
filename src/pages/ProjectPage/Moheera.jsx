@@ -67,7 +67,7 @@ const Moheera = () => {
                         The Challenge
                     </div>
                     <div className='proj_text'>
-
+                        The jewellery market is highly competitive, with numerous brands offering both traditional and lab-grown diamond options. Moheera faced the challenge of standing out in this crowded space, particularly in conveying the value and quality of lab-grown diamonds compared to natural ones. They needed a brand identity that not only highlighted the elegance and craftsmanship of their jewellery but also educated potential customers about the benefits of choosing lab-grown diamonds. The goal was to position Moheera as a luxurious yet sustainable choice, appealing to both traditional and modern consumers.
                     </div>
 
                 </div>
@@ -85,10 +85,10 @@ const Moheera = () => {
                     <div className='companyProfile'>
 
                         <div className='proj_halfImg'>
-                            <img src={imagery1} loading='lazy'/>
+                            <img src={imagery1} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={imagery2} loading='lazy'/>
+                            <img src={imagery2} loading='lazy' />
                         </div>
 
                     </div>
@@ -102,22 +102,22 @@ const Moheera = () => {
 
                     <div className='companyCatalogue'>
                         <div className='proj_halfImg'>
-                            <img src={lookbook} loading='lazy'/>
+                            <img src={lookbook} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={lookbook0} loading='lazy'/>
+                            <img src={lookbook0} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={lookbook1} loading='lazy'/>
+                            <img src={lookbook1} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={lookbook2} loading='lazy'/>
+                            <img src={lookbook2} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={lookbook3} loading='lazy'/>
+                            <img src={lookbook3} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={lookbook4} loading='lazy'/>
+                            <img src={lookbook4} loading='lazy' />
                         </div>
                     </div>
 
@@ -131,13 +131,13 @@ const Moheera = () => {
 
                     <div className='companyLogos'>
                         <div className='proj_halfImg'>
-                            <img src={logo1} loading='lazy'/>
+                            <img src={logo1} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={pallette} loading='lazy'/>
+                            <img src={pallette} loading='lazy' />
                         </div>
                         <div className='proj_fullImg'>
-                            <img src={logocolors} loading='lazy'/>
+                            <img src={logocolors} loading='lazy' />
                         </div>
                     </div>
 
@@ -151,7 +151,7 @@ const Moheera = () => {
 
                     <div className='companyInfoGr'>
                         <div className='proj_fullImg'>
-                            <img src={typo} loading='lazy'/>
+                            <img src={typo} loading='lazy' />
                         </div>
                     </div>
 
@@ -165,19 +165,19 @@ const Moheera = () => {
 
                     <div className='companyUI'>
                         <div className='proj_halfImg'>
-                            <img src={ui1} loading='lazy'/>
+                            <img src={ui1} loading='lazy' />
                         </div>
                         {/* <div className='proj_halfImg'>
                             <img src={ui2} loading='lazy'/>
                         </div> */}
                         <div className='proj_halfImg'>
-                            <img src={ui5} loading='lazy'/>
+                            <img src={ui5} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui3} loading='lazy'/>
+                            <img src={ui3} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui4} loading='lazy'/>
+                            <img src={ui4} loading='lazy' />
                         </div>
                     </div>
 
@@ -189,7 +189,7 @@ const Moheera = () => {
                         <div>Website Development</div>
                     </div>
 
-                    <div className='proj_text ongoing' style={{ color:'#7c2447'}}>
+                    <div className='proj_text ongoing' style={{ color: '#7c2447' }}>
                         Under Progress
                     </div>
 

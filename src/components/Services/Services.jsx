@@ -211,7 +211,7 @@ const Services = () => {
                                 <div className='service'>ADVERTISMENT DESIGN</div>
                                 <div className='service'>CATALOGUE DESIGN</div>
 
-                                <div className='service'>Infographics Design</div>
+                                <div className='service'>INFOGRAPHICS DESIGN</div>
 
 
 

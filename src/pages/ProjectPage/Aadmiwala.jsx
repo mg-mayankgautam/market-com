@@ -44,7 +44,7 @@ const Aadmiwala = () => {
                         About The Brand
                     </div>
                     <div className='proj_text'>
-
+                        Aadmiwala is a B2B talent marketplace designed to bridge the gap between businesses and skilled professionals. The platform focuses on providing a streamlined process for connecting companies with the right talent, ensuring that businesses can quickly and efficiently find the professionals they need to drive their operations forward. With a keen understanding of the challenges businesses face in sourcing talent, Aadmiwala aims to simplify and optimize the entire hiring process.
                     </div>
 
                 </div>
@@ -57,7 +57,7 @@ const Aadmiwala = () => {
                         The Challenge
                     </div>
                     <div className='proj_text'>
-
+                        Our challenge with Aadmiwala was to create a distinctive brand identity that would stand out in a competitive market filled with various talent marketplaces. We needed to position Aadmiwala as a reliable and efficient platform for businesses seeking top-tier talent, ensuring that the brand resonates with both companies and professionals alike. The task was to develop a user experience that reflected the brand's commitment to quality and ease of use, making Aadmiwala the go-to choice for B2B talent acquisition.
                     </div>
 
                 </div>
@@ -67,19 +67,19 @@ const Aadmiwala = () => {
                         Our Work
                     </div>
 
-                    <div className='proj_SubHead'>
+                    {/* <div className='proj_SubHead'>
                         <div className='proj_numHead'>1</div>
                         <div>Company Profile</div>
                     </div>
 
                     <div className='companyProfile'>
 
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
-                        <div className='proj_numHead'>2</div>
+                        <div className='proj_numHead'>1</div>
                         <div>Logo Design</div>
                     </div>
 
@@ -93,7 +93,7 @@ const Aadmiwala = () => {
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
-                        <div className='proj_numHead'>3</div>
+                        <div className='proj_numHead'>2</div>
                         <div>Info Graphics Design</div>
                     </div>
 
@@ -110,7 +110,7 @@ const Aadmiwala = () => {
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
-                        <div className='proj_numHead'>4</div>
+                        <div className='proj_numHead'>3</div>
                         <div>Website UI Design</div>
                     </div>
 
@@ -133,11 +133,11 @@ const Aadmiwala = () => {
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
-                        <div className='proj_numHead'>5</div>
+                        <div className='proj_numHead'>4</div>
                         <div>Website Development</div>
                     </div>
 
-                    <div className='proj_text ongoing' style={{ color: '#bf3430' }}>
+                    <div className='proj_text ongoing' style={{ color: '#ffaa00' }}>
                         Under Progress
                     </div>
 

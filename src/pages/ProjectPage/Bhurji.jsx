@@ -65,7 +65,7 @@ const Bhurji = () => {
                         The Challenge
                     </div>
                     <div className='proj_text'>
-
+                        Bhurji Electronics, with its long-standing reputation and extensive market share, needed a digital transformation to reflect its legacy while attracting a new generation of clients. The challenge was to modernize their brand image without losing the trust and recognition built over decades. This required us to craft a strategy that integrated their pioneering spirit in transformer manufacturing with a contemporary digital presence, ensuring they remained at the forefront of the industry.
                     </div>
 
                 </div>
@@ -83,22 +83,22 @@ const Bhurji = () => {
                     <div className='companyCatalogue'>
 
                         <div className='proj_halfImg'>
-                            <img src={profile1} loading='lazy'/>
+                            <img src={profile1} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={profile2} loading='lazy'/>
+                            <img src={profile2} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={profile3} loading='lazy'/>
+                            <img src={profile3} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={profile4} loading='lazy'/>
+                            <img src={profile4} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={profile5} loading='lazy'/>
+                            <img src={profile5} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={profile6} loading='lazy'/>
+                            <img src={profile6} loading='lazy' />
                         </div>
 
                     </div>
@@ -112,10 +112,10 @@ const Bhurji = () => {
 
                     <div className='companyLogos'>
                         <div className='proj_halfImg'>
-                            <img src={logo} loading='lazy'/>
+                            <img src={logo} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={logo1} loading='lazy'/>
+                            <img src={logo1} loading='lazy' />
                         </div>
                     </div>
 
@@ -129,10 +129,10 @@ const Bhurji = () => {
 
                     <div className='companyProfile'>
                         <div className='proj_halfImg'>
-                            <img src={social1} loading='lazy'/>
+                            <img src={social1} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={social2} loading='lazy'/>
+                            <img src={social2} loading='lazy' />
                         </div>
                     </div>
 
@@ -146,22 +146,22 @@ const Bhurji = () => {
 
                     <div className='companyUI'>
                         <div className='proj_halfImg'>
-                            <img src={ui1} loading='lazy'/>
+                            <img src={ui1} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui2} loading='lazy'/>
+                            <img src={ui2} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui3} loading='lazy'/>
+                            <img src={ui3} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui4} loading='lazy'/>
+                            <img src={ui4} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui5} loading='lazy'/>
+                            <img src={ui5} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui6} loading='lazy'/>
+                            <img src={ui6} loading='lazy' />
                         </div>
                     </div>
 
@@ -173,7 +173,7 @@ const Bhurji = () => {
                         <div>Website Development</div>
                     </div>
 
-                    <div className='proj_text ongoing' style={{ color:'#0265b2'}}>
+                    <div className='proj_text ongoing' style={{ color: '#0265b2' }}>
                         Under Progress
                     </div>
 

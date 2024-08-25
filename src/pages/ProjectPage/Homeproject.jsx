@@ -11,7 +11,7 @@ import card2 from '../../assets/homeproj/card2.png'
 
 
 const Homeproject = () => {
-  
+
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -45,7 +45,7 @@ const Homeproject = () => {
                         About The Brand
                     </div>
                     <div className='proj_text'>
-
+                        Home Project is an emerging furniture brand that brings your dream living spaces to life. Specializing in custom home designs, Home Project offers a unique blend of style, functionality, and personalization. Each piece of furniture is crafted to match your vision, ensuring that every aspect of your home reflects your individual taste and lifestyle.
                     </div>
 
                 </div>
@@ -58,7 +58,7 @@ const Homeproject = () => {
                         The Challenge
                     </div>
                     <div className='proj_text'>
-
+                        As a new entrant in the competitive furniture market, Home Project needed to establish itself as a trustworthy brand that delivers on its promise of quality and customization. The challenge we faced was to create a compelling brand identity that not only communicates the value of bespoke furniture but also resonates with a diverse customer base seeking both style and substance in their home furnishings.
                     </div>
 
                 </div>
@@ -90,13 +90,13 @@ const Homeproject = () => {
 
                     <div className='companyLogos'>
                         <div className='proj_fullImg'>
-                            <img src={logo} loading='lazy'/>
+                            <img src={logo} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={pallette} loading='lazy'/>
+                            <img src={pallette} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={logocolors} loading='lazy'/>
+                            <img src={logocolors} loading='lazy' />
                         </div>
                     </div>
 
@@ -110,10 +110,10 @@ const Homeproject = () => {
 
                     <div className='companyLogos'>
                         <div className='proj_halfImg'>
-                            <img src={graphic1} loading='lazy'/>
+                            <img src={graphic1} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={graphic2} loading='lazy'/>
+                            <img src={graphic2} loading='lazy' />
                         </div>
                     </div>
 
@@ -126,8 +126,8 @@ const Homeproject = () => {
                     </div>
 
                     <div className='companyInfoGr'>
-                        <div className='proj_fullImg' style={{width:'70%'}}>
-                            <img src={letterhead} loading='lazy'/>
+                        <div className='proj_fullImg' style={{ width: '70%' }}>
+                            <img src={letterhead} loading='lazy' />
                         </div>
                     </div>
 
@@ -141,10 +141,10 @@ const Homeproject = () => {
 
                     <div className='companyUI'>
                         <div className='proj_halfImg'>
-                            <img src={card1} loading='lazy'/>
+                            <img src={card1} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={card2} loading='lazy'/>
+                            <img src={card2} loading='lazy' />
                         </div>
                     </div>
 
@@ -156,7 +156,7 @@ const Homeproject = () => {
                         <div>Website Development</div>
                     </div>
 
-                    <div className='proj_text ongoing' style={{ color:'#bf3430'}}>
+                    <div className='proj_text ongoing' style={{ color: '#bf3430' }}>
                         Under Progress
                     </div>
 
