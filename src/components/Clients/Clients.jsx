@@ -40,7 +40,7 @@ const Clients = () => {
           disableOnInteraction: false,
           pauseOnMouseEnter: true
         }}
-        speed={1800}
+        speed={1000}
         // pagination={{
         //   clickable: true,
         // }}
@@ -66,9 +66,9 @@ const Clients = () => {
               onMouseLeave={e => { setStyle1({ display: 'none' }) }}
               >
               <img src={covendx} alt="" loading='lazy' />
-              <div className='projName'>
+              {/* <div className='projName'>
                 Covendx
-              </div>
+              </div> */}
               <div className='projecthover' style={style1}>
                 <div className='hoverbtn'>Read More</div>
               </div>
@@ -83,9 +83,9 @@ const Clients = () => {
               onMouseLeave={e => { setStyle2({ display: 'none' }) }}
               >
               <img src={moheera} alt="" loading='lazy' />
-              <div className='projName'>
+              {/* <div className='projName'>
                 Moheera Jewels
-              </div>
+              </div> */}
               <div className='projecthover' style={style2}>
                 <div className='hoverbtn'>Read More</div>
               </div>
@@ -100,9 +100,9 @@ const Clients = () => {
               onMouseLeave={e => { setStyle3({ display: 'none' }) }}
               >
               <img src={bhurji} alt="" loading='lazy' />
-              <div className='projName'>
+              {/* <div className='projName'>
                 Bhurji Electronics
-              </div>
+              </div> */}
               <div className='projecthover' style={style3}>
                 <div className='hoverbtn'>Read More</div>
               </div>
@@ -114,9 +114,9 @@ const Clients = () => {
           <Link>
             <div className='projectCard'>
               <img src={businesscard} alt="" style={{ objectPosition: 'center right' }} loading='lazy' />
-              <div className='projName'>
+              {/* <div className='projName'>
                 Business Card UI
-              </div>
+              </div> */}
             </div>
           </Link>
         </SwiperSlide>
@@ -139,9 +139,9 @@ const Clients = () => {
               onMouseLeave={e => { setStyle4({ display: 'none' }) }}
               >
               <img src={aadmiwala} alt="" loading='lazy' />
-              <div className='projName'>
+              {/* <div className='projName'>
                 Aadmiwala
-              </div>
+              </div> */}
               <div className='projecthover' style={style4}>
                 <div className='hoverbtn'>Read More</div>
               </div>
@@ -156,9 +156,9 @@ const Clients = () => {
               onMouseLeave={e => { setStyle5({ display: 'none' }) }}
               >
               <img src={homeproj} alt="" loading='lazy' />
-              <div className='projName'>
+              {/* <div className='projName'>
                 Home Project
-              </div>
+              </div> */}
               <div className='projecthover' style={style5}>
                 <div className='hoverbtn'>Read More</div>
               </div>
@@ -170,9 +170,9 @@ const Clients = () => {
           <Link>
             <div className='projectCard'>
               <img src={ruralhand} alt="" loading='lazy' />
-              <div className='projName'>
+              {/* <div className='projName'>
                 Rural Handmade
-              </div>
+              </div> */}
             </div>
           </Link>
         </SwiperSlide>
