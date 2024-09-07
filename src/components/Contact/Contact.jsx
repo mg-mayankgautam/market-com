@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { Toaster, toast } from 'sonner';
 import './Contact.css'
 import location from '../../assets/locationlogo.png'
 import mail from '../../assets/maillogo.png'
@@ -27,10 +28,10 @@ const Contact = ({ contact_ref }) => {
                     phone: phone,
                     msg: msg
                 });
-                alert("We have received your request");
+                toast.success("We have received your request");
             }
             else {
-                alert("kindly fill all fields first.");
+                toast.error("kindly fill all fields first.");
             }
         }
         catch (error) {
@@ -95,7 +96,7 @@ const Contact = ({ contact_ref }) => {
                     </div>
                 </div>
             </div>
-
+            <Toaster position="top-center" richColors/>
         </div>
     )
 }
