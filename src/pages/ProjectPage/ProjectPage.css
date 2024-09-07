@@ -119,6 +119,13 @@
     /* color: white; */
 }
 
+.service_LargeHead{
+    font-size: 56px;
+    font-weight: 800;
+    z-index: 1;
+    color: white;
+    /* text-shadow: 0px 0px 4px #000000; */
+}
 
 
 @media only screen and (orientation: portrait) {
@@ -147,4 +154,7 @@
         width: 85% !important;
     }
     
+    .service_LargeHead{
+        font-size: 32px;
+    }
 }

@@ -24,6 +24,12 @@ const Aadmiwala = () => {
             <div className='ProjectPage'>
 
                 <div className='proj_Section'>
+                    <div className='service_LargeHead' style={{color:"#ffaa00"}}>
+                        Aadmiwala
+                    </div>
+                </div>
+
+                <div className='proj_Section'>
                     <div className='proj_Head'>
                         Services
                     </div>

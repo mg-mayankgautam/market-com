@@ -34,6 +34,12 @@ const Moheera = () => {
             <div className='ProjectPage'>
 
                 <div className='proj_Section'>
+                    <div className='service_LargeHead' style={{ color: "#7c2447" }}>
+                        Moheera Jewels
+                    </div>
+                </div>
+
+                <div className='proj_Section'>
                     <div className='proj_Head'>
                         Services
                     </div>

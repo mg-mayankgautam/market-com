@@ -34,6 +34,12 @@ const Covendx = () => {
             <div className='ProjectPage'>
 
                 <div className='proj_Section'>
+                    <div className='service_LargeHead' style={{ color: "#164f55" }}>
+                        Covendx
+                    </div>
+                </div>
+
+                <div className='proj_Section'>
                     <div className='proj_Head'>
                         Services
                     </div>
@@ -80,27 +86,27 @@ const Covendx = () => {
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>1</div>
                         <div>Company Profile</div>
-                    </div>                    
+                    </div>
 
                     <div className='companyProfile'>
 
                         <div className='proj_halfImg'>
-                            <img src={p1} loading='lazy'/>
+                            <img src={p1} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={p2} loading='lazy'/>
+                            <img src={p2} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={p3} loading='lazy'/>
+                            <img src={p3} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={p4} loading='lazy'/>
+                            <img src={p4} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={p5} loading='lazy'/>
+                            <img src={p5} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={p6} loading='lazy'/>
+                            <img src={p6} loading='lazy' />
                         </div>
 
                     </div>
@@ -110,25 +116,25 @@ const Covendx = () => {
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>2</div>
                         <div>Logo Design</div>
-                    </div>         
+                    </div>
 
                     <div className='companyLogos'>
                         <div className='proj_halfImg'>
-                            <img src={logo1} alt="" loading='lazy'/>
+                            <img src={logo1} alt="" loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={pallette} alt="" loading='lazy'/>
+                            <img src={pallette} alt="" loading='lazy' />
                         </div>
                         <div className='proj_fullImg'>
-                            <img src={logo2} alt="" loading='lazy'/>
+                            <img src={logo2} alt="" loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={logosecond} alt="" loading='lazy'/>
+                            <img src={logosecond} alt="" loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={logoyellow} alt="" loading='lazy'/>
+                            <img src={logoyellow} alt="" loading='lazy' />
                         </div>
-                    </div>           
+                    </div>
 
                 </div>
 
@@ -136,14 +142,14 @@ const Covendx = () => {
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>3</div>
                         <div>Info Graphics Design</div>
-                    </div>   
+                    </div>
 
                     <div className='companyInfoGr'>
                         <div className='proj_fullImg'>
-                            <img src={infographic} alt="" loading='lazy'/>
+                            <img src={infographic} alt="" loading='lazy' />
                         </div>
-                        
-                    </div>                  
+
+                    </div>
 
                 </div>
 
@@ -151,21 +157,21 @@ const Covendx = () => {
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>4</div>
                         <div>Website UI Design</div>
-                    </div>             
+                    </div>
 
                     <div className='companyUI'>
 
                         <div className='proj_halfImg'>
-                            <img src={ui1} loading='lazy'/>
+                            <img src={ui1} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui2} loading='lazy'/>
+                            <img src={ui2} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui3} loading='lazy'/>
+                            <img src={ui3} loading='lazy' />
                         </div>
                         <div className='proj_halfImg'>
-                            <img src={ui4} loading='lazy'/>
+                            <img src={ui4} loading='lazy' />
                         </div>
 
                     </div>
@@ -176,11 +182,11 @@ const Covendx = () => {
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>5</div>
                         <div>Website Development</div>
-                    </div>   
+                    </div>
 
-                    <div className='proj_text ongoing' style={{ color:'#164f55'}}>
+                    <div className='proj_text ongoing' style={{ color: '#164f55' }}>
                         Under Progress
-                    </div>                
+                    </div>
 
                 </div>
             </div>

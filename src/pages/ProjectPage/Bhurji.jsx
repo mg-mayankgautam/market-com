@@ -32,6 +32,12 @@ const Bhurji = () => {
             <div className='ProjectPage'>
 
                 <div className='proj_Section'>
+                    <div className='service_LargeHead' style={{ color: "#0265b2" }}>
+                        Bhurji Electronics
+                    </div>
+                </div>
+
+                <div className='proj_Section'>
                     <div className='proj_Head'>
                         Services
                     </div>

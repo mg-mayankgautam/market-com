@@ -25,6 +25,12 @@ const Homeproject = () => {
             <div className='ProjectPage'>
 
                 <div className='proj_Section'>
+                    <div className='service_LargeHead' style={{ color: "#bf3430" }}>
+                        Home Project
+                    </div>
+                </div>
+
+                <div className='proj_Section'>
                     <div className='proj_Head'>
                         Services
                     </div>
