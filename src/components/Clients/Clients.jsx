@@ -110,16 +110,16 @@ const Clients = () => {
           </Link>
         </SwiperSlide>
 
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <Link>
             <div className='projectCard'>
               <img src={businesscard} alt="" style={{ objectPosition: 'center right' }} loading='lazy' />
               {/* <div className='projName'>
                 Business Card UI
-              </div> */}
+              </div> 
             </div>
           </Link>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         {/* <SwiperSlide>
           <Link to='https://www.thefuelmedia.co/' target='_blank'>
