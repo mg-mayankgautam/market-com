@@ -10,8 +10,8 @@ import moheera from '../../assets/moheera.png'
 import bhurji from '../../assets/bhurji.png'
 import homeproj from '../../assets/homeproj.png'
 import ruralhand from '../../assets/ruralhand.png'
-import businesscard from '../../assets/businesscard.png'
-import fuelmedia from '../../assets/fuelmedia.png'
+import uhh from '../../assets/uhh.png'
+import uhhinterior from '../../assets/uhhinterior.png'
 import aadmiwala from '../../assets/aadmiwala.png'
 import { Link } from 'react-router-dom';
 
@@ -110,27 +110,27 @@ const Clients = () => {
           </Link>
         </SwiperSlide>
 
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <Link>
             <div className='projectCard'>
-              <img src={businesscard} alt="" style={{ objectPosition: 'center right' }} loading='lazy' />
+              <img src={uhh} alt="" loading='lazy' style={{objectPosition:'center'}} />
               {/* <div className='projName'>
-                Business Card UI
-              </div> 
+                Rural Handmade
+              </div> */}
             </div>
           </Link>
-        </SwiperSlide> */}
+        </SwiperSlide>
 
-        {/* <SwiperSlide>
-          <Link to='https://www.thefuelmedia.co/' target='_blank'>
+        <SwiperSlide>
+          <Link>
             <div className='projectCard'>
-              <img src={fuelmedia} alt="" loading='lazy' />
-              <div className='projName'>
-                The Fuel Media
-              </div>
+              <img src={uhhinterior} alt="" loading='lazy' />
+              {/* <div className='projName'>
+                Rural Handmade
+              </div> */}
             </div>
           </Link>
-        </SwiperSlide> */}
+        </SwiperSlide>
 
         <SwiperSlide>
           <Link to='/project/aadmiwala'>
