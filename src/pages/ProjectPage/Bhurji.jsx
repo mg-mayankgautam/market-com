@@ -82,7 +82,7 @@ const Bhurji = () => {
                         Our Work
                     </div>
 
-                    <div className='proj_SubHead'>
+                    {/* <div className='proj_SubHead'>
                         <div className='proj_numHead'>1</div>
                         <div>Company Profile</div>
                     </div>
@@ -108,10 +108,10 @@ const Bhurji = () => {
                             <img src={profile6} loading='lazy' />
                         </div>
 
-                    </div>
+                    </div> */}
                 </div>
 
-                <div className='proj_Section'>
+                {/* <div className='proj_Section'>
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>2</div>
                         <div>Logo Design</div>
@@ -126,9 +126,9 @@ const Bhurji = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
-                <div className='proj_Section'>
+                {/* <div className='proj_Section'>
                     <div className='proj_SubHead'>
                         <div className='proj_numHead'>3</div>
                         <div>Social Media Post Design</div>
@@ -143,11 +143,11 @@ const Bhurji = () => {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
-                        <div className='proj_numHead'>4</div>
+                        <div className='proj_numHead'>1</div>
                         <div>Website UI Design</div>
                     </div>
 
@@ -176,7 +176,7 @@ const Bhurji = () => {
 
                 <div className='proj_Section'>
                     <div className='proj_SubHead'>
-                        <div className='proj_numHead'>5</div>
+                        <div className='proj_numHead'>2</div>
                         <div>Website Development</div>
                     </div>
 
